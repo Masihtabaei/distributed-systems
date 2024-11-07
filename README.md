@@ -1,4 +1,4 @@
-# Distributes Systems
+# Distributed Systems
 
 ## Technologies Used
 
