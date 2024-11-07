@@ -1,0 +1,85 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "$id": "https://github.com/Masihtabaei/distributed-systems/socket/specifications/malim-message-schema.json",
+    "title": "Malim Message",
+    "description": "A message transferred in a malim socket communication",
+    "type": "object",
+    "properties": {
+        "operationType":{
+            "description": "A string representing type of the message",
+            "type": "string",
+            "default": "echo",
+            "enum": ["echo", "sum", "count", "disconnect", "quit"]
+        }
+    },
+    "operationParameters":{
+        "description": "An array of arguments/parameters required for accomplishing the operation desired",
+        "type": "array"
+    },
+    "allOf": [
+        {
+            "if":{
+                "properties": {
+                    "operationType":{"const": "sum"}
+                }
+            },
+            "then":{
+                "properties": {
+                    "operationParameters":{
+                        "minItems": 2,
+                        "items": {"type": "integer"}
+                    }
+                }
+            }
+        },
+        {
+            "if":{
+                "properties": {
+                    "operationType":{"const": "count"}
+                }
+            },
+            "then":{
+                "properties": {
+                    "operationParameters":{
+                        "minItems": 2,
+                        "items": {"type": "integer"}
+                    }
+                }
+            }
+        },
+        {
+            "if":{
+                "anyOf": [
+                    {
+                        "properties": {
+                            "operationType":{"const": "echo"}
+                        }
+                    },
+                    {
+                        "properties": {
+                            "operationType":{"const": "disconnect"}
+                        }
+                    },
+                    {
+                        "properties": {
+                            "operationType":{"const": "quit"}
+                        }
+                    }
+                ]
+            },
+            "then":{
+                "properties": {
+                    "operationParameters":{
+                        "minItems": 2,
+                        "maxItems": 2,
+                        "prefixItems":[
+                            {"type": "integer"},
+                            {"type": "string"}
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+
+}
