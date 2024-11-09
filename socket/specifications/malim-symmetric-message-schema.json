@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://github.com/Masihtabaei/distributed-systems/socket/specifications/malim-message-schema.json",
+    "$id": "https://github.com/Masihtabaei/distributed-systems/socket/specifications/malim-symmetric-message-schema.json",
     "title": "Malim Message",
     "description": "A message transferred in a Malim socket communication",
     "type": "object",
