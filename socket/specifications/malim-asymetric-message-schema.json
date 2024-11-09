@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://github.com/Masihtabaei/distributed-systems/socket/specifications/malim-symmetric-message-schema.json",
+    "$id": "https://github.com/Masihtabaei/distributed-systems/socket/specifications/malim-asymmetric-message-schema.json",
     "title": "Malim Message",
     "description": "A message transferred in a Malim socket communication",
     "type": "object",
@@ -40,11 +40,8 @@
         {
             "if": {
                 "properties": {
-                    "operationType": {
-                        "enum": [
-                            "sum",
-                            "count"
-                        ]
+                    "messageType": {
+                        "const": "request"
                     }
                 }
             },
@@ -53,8 +50,11 @@
                     {
                         "if": {
                             "properties": {
-                                "messageType": {
-                                    "const": "request"
+                                "operationType": {
+                                    "enum": [
+                                        "sum",
+                                        "count"
+                                    ]
                                 }
                             }
                         },
@@ -72,8 +72,53 @@
                     {
                         "if": {
                             "properties": {
-                                "messageType": {
-                                    "const": "response"
+                                "operationType": {
+                                    "enum": [
+                                        "echo",
+                                        "disconnect",
+                                        "quit"
+                                    ]
+                                }
+                            }
+                        },
+                        "then": {
+                            "properties": {
+                                "operationParameters": {
+                                    "minItems": 2,
+                                    "maxItems": 2,
+                                    "prefixItems": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "string"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "messageType": {
+                        "const": "response"
+                    }
+                }
+            },
+            "then": {
+                "allOf": [
+                    {
+                        "if": {
+                            "properties": {
+                                "operationType": {
+                                    "enum": [
+                                        "sum",
+                                        "count"
+                                    ]
                                 }
                             }
                         },
@@ -88,50 +133,16 @@
                                 }
                             }
                         }
-                    }
-                ]
-            }
-        },
-        {
-            "if": {
-                "properties": {
-                    "operationType": {
-                        "enum": [
-                            "echo",
-                            "disconnect",
-                            "quit"
-                        ]
-                    }
-                }
-            },
-            "then": {
-                "allOf": [
-                    {
-                        "if": {
-                            "properties": {
-                                "messageType": {
-                                    "const": "request"
-                                }
-                            }
-                        },
-                        "then": {
-                            "properties": {
-                                "operationParameters": {
-                                    "minItems": 2,
-                                    "maxItems": 2,
-                                    "prefixItems":[
-                                        {"type": "integer"},
-                                        {"type": "string"}
-                                    ]
-                                }
-                            }
-                        }
                     },
                     {
                         "if": {
                             "properties": {
-                                "messageType": {
-                                    "const": "response"
+                                "operationType": {
+                                    "enum": [
+                                        "echo",
+                                        "disconnect",
+                                        "quit"
+                                    ]
                                 }
                             }
                         },
