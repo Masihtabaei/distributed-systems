@@ -1,0 +1,99 @@
+syntax = "proto3";
+
+package malim;
+
+enum MessageType {
+    MESSAGE_TYPE_UNSPECIFIED = 0;
+    REQUEST = 1;
+    RESPONSE = 2;
+    ERROR = 3;
+}
+
+enum OperationType {
+    OPERATION_TYPE_UNSPECIFIED = 0;
+    ECHO = 1;
+    SUM = 2;
+    COUNT = 3;
+    DISCONNECT = 5;
+    QUIT = 6;
+}
+
+message MalimMessage {
+    MessageType message_type = 1;
+    OperationType operation_type = 2;
+    oneof parameters {
+        RequestParameters request_parameters = 3;
+        ResponseParameters response_parameters = 4;
+        ErrorParameters error_parameters = 5;
+    }
+}
+
+message RequestParameters {
+    oneof request_types {
+        EchoRequestParameters echo_request_parameters = 1;
+        SumRequestParameters sum_request_parameters = 2;
+        CountRequestParameters count_request_parameters = 3;
+        DisconnectRequestParameters disconnect_request_parameters = 4;
+        QuitRequestParameters quit_request_parameters = 5;
+    }
+}
+
+message ResponseParameters {
+    oneof response_types {
+        EchoResponseParameters echo_response_parameters = 1;
+        SumResponseParameters sum_response_parameters = 2;
+        CountResponseParameters count_response_parameters = 3;
+        DisconnectResponseParameters disconnect_response_parameters = 4;
+        QuitResponseParameters quit_response_parameters = 5;
+    }
+}
+
+message EchoRequestParameters {
+    int32 simulation_time = 1;
+    string message = 2; 
+}
+
+message EchoResponseParameters {
+    string message = 1;
+}
+
+message SumRequestParameters {
+    int32 simulation_time = 1;
+    repeated int32 values = 2;
+}
+
+message SumResponseParameters {
+    int32 result = 1;
+}
+
+message CountRequestParameters {
+    int32 simulation_time = 1;
+    repeated int32 values = 2;
+}
+
+message CountResponseParameters {
+    int32 result = 1;
+}
+
+message DisconnectRequestParameters {
+    int32 simulation_time = 1;
+    string message = 2; 
+}
+
+message DisconnectResponseParameters {
+    string message = 1;
+}
+
+message QuitRequestParameters {
+    int32 simulation_time = 1;
+    string message = 2; 
+}
+
+message QuitResponseParameters {
+    string message = 1;
+}
+
+message ErrorParameters{
+    int32 error_code = 1;
+    string message = 2;
+}
