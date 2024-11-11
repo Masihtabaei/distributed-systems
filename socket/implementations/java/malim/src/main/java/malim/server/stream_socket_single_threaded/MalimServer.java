@@ -29,7 +29,9 @@ public class MalimServer {
     }
 
     private void createServerSocket() throws IOException{
-        serverSocket = new ServerSocket(portNumber, connectionQueueMaximumSize);
+        if(serverSocket == null){
+            serverSocket = new ServerSocket(portNumber, connectionQueueMaximumSize);
+        }
     }
 
     public int getPortNumber(){
