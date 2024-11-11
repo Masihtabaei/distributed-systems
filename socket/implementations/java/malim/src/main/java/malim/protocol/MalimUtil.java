@@ -3,13 +3,14 @@ package malim.protocol;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.ArrayList;
 
 import malim.protocol.MalimProtos.MessageType;
 import malim.protocol.MalimProtos.OperationType;
 
 public class MalimUtil {
 
-    public static MalimProtos.MalimMessage createRequestForECHO(
+    public static MalimProtos.MalimMessage createRequestMessageForECHO(
             MalimECHORequestMessage malimECHORequestMessage) {
 
         var requestMessageForECHO = MalimProtos.MalimMessage.newBuilder();
@@ -117,10 +118,8 @@ public class MalimUtil {
         return errorMessage.build();
     }
 
-
-
     public static MalimProtos.MalimMessage createResponseMessageForECHO(
-           MalimECHOResponseMessage malimECHOResponseMessage
+            MalimECHOResponseMessage malimECHOResponseMessage
     ) {
         var responseMessageForECHO = MalimProtos.MalimMessage.newBuilder();
         responseMessageForECHO.setMessageType(MessageType.RESPONSE);
@@ -208,6 +207,26 @@ public class MalimUtil {
         return responseMessageForQUIT.build();
     }
 
+    public static OperationType createMessageOperationType(MalimMessageOperationType malimMessageOperationType) {
+        OperationType translatedOperationType;
+        switch (malimMessageOperationType) {
+            case ECHO ->
+                translatedOperationType = OperationType.ECHO;
+            case SUM ->
+                translatedOperationType = OperationType.SUM;
+            case COUNT ->
+                translatedOperationType = OperationType.COUNT;
+            case DISCONNECT ->
+                translatedOperationType = OperationType.DISCONNECT;
+            case QUIT ->
+                translatedOperationType = OperationType.QUIT;
+            default -> {
+                translatedOperationType = OperationType.OPERATION_TYPE_UNSPECIFIED;
+            }
+        }
+        return translatedOperationType;
+    }
+   
     public static MalimMessageType parseMalimMessageType(MalimProtos.MalimMessage malimMessageToParse) {
         MalimMessageType parsedMessageType;
 
@@ -225,7 +244,7 @@ public class MalimUtil {
 
         return parsedMessageType;
     }
-
+    
     public static MalimMessageOperationType parseMalimMessageOperationType(MalimProtos.MalimMessage malimMessageToParse) {
 
         MalimMessageOperationType parsedMessageOperationType;
@@ -249,24 +268,38 @@ public class MalimUtil {
         return parsedMessageOperationType;
     }
 
-    public static OperationType createMessageOperationType(MalimMessageOperationType malimMessageOperationType) {
-        OperationType translatedOperationType;
-        switch (malimMessageOperationType) {
-            case ECHO ->
-                translatedOperationType = OperationType.ECHO;
-            case SUM ->
-                translatedOperationType = OperationType.SUM;
-            case COUNT ->
-                translatedOperationType = OperationType.COUNT;
-            case DISCONNECT ->
-                translatedOperationType = OperationType.DISCONNECT;
-            case QUIT ->
-                translatedOperationType = OperationType.QUIT;
-            default -> {
-                translatedOperationType = OperationType.OPERATION_TYPE_UNSPECIFIED;
-            }
-        }
-        return translatedOperationType;
+    public static MalimECHORequestMessage parseMalimECHORequestMessage(MalimProtos.MalimMessage malimMessageToParse) {
+        int simulationTimeParsed = malimMessageToParse.getRequestParameters().getEchoRequestParameters().getSimulationTime();
+        String messageParsed = malimMessageToParse.getRequestParameters().getEchoRequestParameters().getMessage();
+        return new MalimECHORequestMessage(simulationTimeParsed, messageParsed);
+    }
+
+    public static MalimSUMRequestMesssage parseMalimSUMRequestMesssage(MalimProtos.MalimMessage malimMessageToParse) {
+        int simulationTimeParsed = malimMessageToParse.getRequestParameters().getSumRequestParameters().getSimulationTime();
+        ArrayList<Integer> valuesParsed = new ArrayList<>(malimMessageToParse.getRequestParameters().getSumRequestParameters().getValuesList());
+
+        return new MalimSUMRequestMesssage(simulationTimeParsed, valuesParsed);
+    }
+
+    public static MalimCOUNTRequestMessage parseMalimCOUNTRequestMessage(MalimProtos.MalimMessage malimMessageToParse) {
+        int simulationTimeParsed = malimMessageToParse.getRequestParameters().getCountRequestParameters().getSimulationTime();
+        ArrayList<Integer> valuesParsed = new ArrayList<>(malimMessageToParse.getRequestParameters().getCountRequestParameters().getValuesList());
+
+        return new MalimCOUNTRequestMessage(simulationTimeParsed, valuesParsed);
+    }
+
+    public static MalimDISCONNECTRequestMessage parseMalimDISCONNECTRequestMessage(MalimProtos.MalimMessage malimMessageToParse) {
+        int simulationTimeParsed = malimMessageToParse.getRequestParameters().getDisconnectRequestParameters().getSimulationTime();
+        String messageParsed = malimMessageToParse.getRequestParameters().getDisconnectRequestParameters().getMessage();
+
+        return new MalimDISCONNECTRequestMessage(simulationTimeParsed, messageParsed);
+    }
+
+    public static MalimQUITRequestMessage parseMalimQUITRequestMessage(MalimProtos.MalimMessage malimMessageToParse) {
+        int simulationTimeParsed = malimMessageToParse.getRequestParameters().getQuitRequestParameters().getSimulationTime();
+        String messageParsed = malimMessageToParse.getRequestParameters().getQuitRequestParameters().getMessage();
+
+        return new MalimQUITRequestMessage(simulationTimeParsed, messageParsed);
     }
 
     public static MalimECHOResponseMessage parseECHOResponseMessage(MalimProtos.MalimMessage malimMessageToParse) {

@@ -20,9 +20,11 @@ malim\protocol\MalimProtos$DisconnectResponseParameters.class
 malim\protocol\MalimProtos.class
 malim\protocol\MalimProtos$RequestParameters$1.class
 malim\client\MalimClient.class
+malim\protocol\MalimECHORequestMessage.class
 malim\protocol\MalimProtos$MalimMessage$ParametersCase.class
 malim\protocol\MalimProtos$EchoResponseParameters$1.class
 malim\protocol\MalimProtos$EchoRequestParameters$Builder.class
+malim\protocol\MalimCOUNTRequestMessage.class
 malim\protocol\MalimProtos$DisconnectResponseParametersOrBuilder.class
 malim\protocol\MalimProtos$EchoRequestParameters$1.class
 malim\protocol\MalimProtos$EchoResponseParameters$Builder.class
@@ -37,6 +39,7 @@ malim\protocol\MalimProtos$RequestParameters$Builder.class
 malim\protocol\MalimProtos$SumResponseParameters$Builder.class
 malim\protocol\MalimECHOResponseMessage.class
 malim\protocol\MalimProtos$QuitRequestParameters.class
+malim\protocol\MalimQUITRequestMessage.class
 malim\protocol\MalimProtos$RequestParameters$RequestTypesCase.class
 malim\protocol\MalimProtos$MessageType$1.class
 malim\protocol\MalimProtos$DisconnectRequestParameters$1.class
@@ -48,12 +51,14 @@ malim\protocol\MalimMessageType.class
 malim\protocol\MalimProtos$SumResponseParameters$1.class
 malim\protocol\MalimProtos$CountResponseParameters$1.class
 malim\protocol\MalimQUITResponseMessage.class
+malim\protocol\MalimDISCONNECTRequestMessage.class
 malim\protocol\MalimProtos$ResponseParameters$ResponseTypesCase.class
 malim\protocol\MalimProtos$SumResponseParameters.class
 malim\protocol\MalimProtos$CountResponseParameters.class
 malim\protocol\MalimProtos$OperationType.class
 malim\protocol\MalimProtos$QuitRequestParameters$1.class
 malim\protocol\MalimSUMResponseMesssage.class
+malim\protocol\MalimSUMRequestMesssage.class
 malim\protocol\MalimProtos$DisconnectRequestParameters.class
 malim\protocol\MalimProtos$ErrorParameters$Builder.class
 malim\protocol\MalimProtos$SumResponseParametersOrBuilder.class
