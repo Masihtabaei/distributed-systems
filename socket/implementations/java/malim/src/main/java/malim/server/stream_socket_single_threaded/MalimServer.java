@@ -1,29 +1,35 @@
 package malim.server.stream_socket_single_threaded;
 
+import java.io.IOException;
+import java.net.ServerSocket;
+
 public class MalimServer {
     private int portNumber;
     private int connectionQueueMaximumSize;
     private String serverName;
+    private ServerSocket serverSocket;
 
-    public MalimServer(){
-        portNumber = 0;
-        connectionQueueMaximumSize = 1;
-        serverName = "Malim Server Default Name";
+    public MalimServer() throws IOException{
+        this(0);
     }
 
-    public MalimServer(int portNumber){
-        this();
+    public MalimServer(int portNumber) throws IOException{
+        this(portNumber, 1);
+    }
+
+    public MalimServer(int portNumber, int connectionQueueMaximumSize) throws IOException{
+        this(portNumber, connectionQueueMaximumSize, "Malim Server Default Name");
+    }
+
+    public MalimServer(int portNumber, int connectionQueueMaximumSize, String serverName) throws IOException{
         this.portNumber = portNumber;
-    }
-
-    public MalimServer(int portNumber, int connectionQueueMaximumSize){
-        this(portNumber);
         this.connectionQueueMaximumSize = connectionQueueMaximumSize;
+        this.serverName = serverName;
+        createServerSocket();
     }
 
-    public MalimServer(int portNumber, int connectionQueueMaximumSize, String serverName){
-        this(portNumber, connectionQueueMaximumSize);
-        this.serverName = serverName;
+    private void createServerSocket() throws IOException{
+        serverSocket = new ServerSocket(portNumber, connectionQueueMaximumSize);
     }
 
     public int getPortNumber(){
