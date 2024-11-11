@@ -1,3 +1,3 @@
 package malim.protocol;
 
-public record MalimERRORMessage(int code, String message) {}
+public record MalimERRORMessage(MalimMessageOperationType causingOperationType, int code, String message) {}
