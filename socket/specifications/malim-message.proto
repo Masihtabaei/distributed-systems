@@ -1,6 +1,7 @@
 syntax = "proto3";
 
-package malim;
+option java_package = "malim";
+option java_outer_classname = "MalimProtos";
 
 enum MessageType {
     MESSAGE_TYPE_UNSPECIFIED = 0;
