@@ -2,13 +2,14 @@ package malim.server.stream_socket_single_threaded;
 
 import java.io.IOException;
 import java.net.ServerSocket;
+import java.net.Socket;
 
 public class MalimServer {
+    private boolean continueWork;
     private int portNumber;
-    private int connectionQueueMaximumSize;
     private String serverName;
     private ServerSocket serverSocket;
-
+    private MalimServerQueueManager serverSocketQueueManager;
     public MalimServer(){
         this(0);
     }
@@ -22,31 +23,50 @@ public class MalimServer {
     }
 
     public MalimServer(int portNumber, int connectionQueueMaximumSize, String serverName){
+        continueWork = true;
         this.portNumber = portNumber;
-        this.connectionQueueMaximumSize = connectionQueueMaximumSize;
         this.serverName = serverName;
-        createServerSocket();
+        serverSocketQueueManager = new MalimServerQueueManager(connectionQueueMaximumSize);
+        setupServerSocket();
+        acceptSocketClient();
     }
 
-    private void createServerSocket(){
+    private void setupServerSocket(){
         if(serverSocket == null){
             try {
-                serverSocket = new ServerSocket(portNumber, connectionQueueMaximumSize);
+                serverSocket = new ServerSocket(portNumber, serverSocketQueueManager.getQueueMaximumSize());
             } catch (IOException exceptionCaught) {
                 System.err.println(exceptionCaught.getMessage());
             }
         }
     }
 
-    public int getPortNumber(){
-        return portNumber;
+    private void acceptSocketClient(){
+            try (Socket acceptedSocketClient = serverSocket.accept()) {
+                int clientAcceptedId = serverSocketQueueManager.addClient(acceptedSocketClient);
+                startCommunicationWithSocketClient(clientAcceptedId);
+            } catch (IOException exceptionCaught) {
+                System.err.println(exceptionCaught.getMessage());
+            }
+
     }
 
-    public int getConnectionQueueMaximumSize(){
-        return connectionQueueMaximumSize;
+    private void startCommunicationWithSocketClient(int clientInQueueToCommunicateId){
+        while (continueWork) {
+            
+        }
+
+    }
+
+    public int getPortNumber(){
+        return portNumber == 0 ? serverSocket.getLocalPort() : portNumber;
     }
 
     public String getServerName(){
         return serverName;
+    }
+
+    public void stopServer(){
+
     }
 }
