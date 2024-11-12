@@ -1631,6 +1631,11 @@ public final class MalimProtos {
 
   }
 
+
+
+
+
+
   public interface RequestParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:RequestParameters)
       com.google.protobuf.MessageOrBuilder {
@@ -3412,6 +3417,11 @@ public final class MalimProtos {
       }
       return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
     }
+
+
+
+
+
 
     public static final int COUNT_RESPONSE_PARAMETERS_FIELD_NUMBER = 3;
     /**
