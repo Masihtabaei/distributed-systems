@@ -1,4 +1,4 @@
-# Malim Message Raw Text Sescription
+# Malim Message Raw Text Description
 
 ## Malim Messgae Layout
 
