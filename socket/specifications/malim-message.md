@@ -40,7 +40,7 @@ Here you find layouts desired for requests for various operation types defined p
 | Index | Name | Length (in Bytes) | Data Type | Meaning
 | ----------- | ----------- | ----------- | ----------- | -----------
 | 0 | messageLength | 4 | uint32_t | Number of characters in string
-| 1 | message | X | string | Self-explaining
+| 1 | message | X | string | UTF-8 (between 1 and 4 Bytes)
 
 ## Malim Response Parameters
 
@@ -58,4 +58,4 @@ Here you find layouts desired for responses of various operation types defined p
 | Index | Name | Length (in Bytes) | Data Type | Meaning
 | ----------- | ----------- | ----------- | ----------- | -----------
 | 0 | messageLength | 4 | uint32_t | Number of characters in the string
-| 1 | message | X | string | Self-explaining
+| 1 | message | X | string | UTF-8 (between 1 and 4 Bytes)
