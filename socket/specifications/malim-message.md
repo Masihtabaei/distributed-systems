@@ -43,7 +43,7 @@ Here you find current statuses of our operations, their hexadecimal encoding, me
 | ----------- | ----------- | ----------- | -----------
 | 0 | SUCCESSFULL | 0x0 | Self-explaining
 | 1 | NON_EXISTING_OPERATION | 0x1 | Self-explaining
-| 2 | INVALID_SIMULATION_TIME | 0x1 | Self-explaining
+| 2 | INVALID_SIMULATION_TIME | 0x2 | Self-explaining
 | 3 | PARAMETER_MISMATCH | 0x1 | Self-explaining
 
 
