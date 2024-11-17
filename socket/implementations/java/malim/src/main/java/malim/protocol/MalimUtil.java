@@ -83,15 +83,15 @@ public class MalimUtil {
     }
 
     public static MalimProtos.MalimMessage createRequestMessageForQUIT(
-            MalimQUITRequestMessage malimQUITRequestMessage
+            int simulationTime, String message
     ) {
         var requestMessageForQUIT = MalimProtos.MalimMessage.newBuilder();
         requestMessageForQUIT.setMessageType(MessageType.REQUEST);
         requestMessageForQUIT.setOperationType(OperationType.QUIT);
 
         var requestParametersForQUIT = MalimProtos.QuitRequestParameters.newBuilder();
-        requestParametersForQUIT.setSimulationTime(malimQUITRequestMessage.simulationTime());
-        requestParametersForQUIT.setMessage(malimQUITRequestMessage.message());
+        requestParametersForQUIT.setSimulationTime(simulationTime);
+        requestParametersForQUIT.setMessage(message);
 
         var requestParameters = MalimProtos.RequestParameters.newBuilder();
         requestParameters.setQuitRequestParameters(requestParametersForQUIT);
