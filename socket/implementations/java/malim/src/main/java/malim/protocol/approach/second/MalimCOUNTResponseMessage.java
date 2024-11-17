@@ -1,3 +1,3 @@
-package malim.protocol;
+package malim.protocol.approach.second;
 
 public record MalimCOUNTResponseMessage(int result) {}

@@ -1,29 +1,27 @@
-package malim.client;
-
-import malim.protocol.FolderRequest;
+package malim.client.approach.first;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class MalimRawClient {
+import malim.protocol.approach.first.FolderRequest;
+
+public class MalimClient {
 
     private static final String progName = "MalimRawClient";
     //private static final int BUF_LEN = 128;
 
-    public static void main(String[] args) {
+/*     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Bitte Server-IP und Port angeben.");
             return;
         }
-        MalimRawClient client = new MalimRawClient();
+        MalimClient client = new MalimClient();
         client.runInstance(args);
-    }
+    } */
 
     private void runInstance(String[] args) {
         if(args.length < 2) {return;}

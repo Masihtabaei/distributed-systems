@@ -1,6 +1,4 @@
-package malim.protocol;
-
-import java.util.List;
+package malim.protocol.approach.first;
 
 public class FolderRequest {
 

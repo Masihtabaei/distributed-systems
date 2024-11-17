@@ -1,12 +1,12 @@
-package malim.protocol;
+package malim.protocol.approach.second;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
-import malim.protocol.MalimProtos.MessageType;
-import malim.protocol.MalimProtos.OperationType;
+import malim.protocol.approach.second.MalimProtos.MessageType;
+import malim.protocol.approach.second.MalimProtos.OperationType;
 
 public class MalimUtil {
 

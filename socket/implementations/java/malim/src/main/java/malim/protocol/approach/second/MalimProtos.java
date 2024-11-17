@@ -3,7 +3,7 @@
 // source: malim-message.proto
 // Protobuf Java Version: 4.28.3
 
-package malim.protocol;
+package malim.protocol.approach.second;
 
 public final class MalimProtos {
   private MalimProtos() {}
@@ -134,7 +134,7 @@ public final class MalimProtos {
     }
     public static final com.google.protobuf.Descriptors.EnumDescriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.getDescriptor().getEnumTypes().get(0);
+      return malim.protocol.approach.second.MalimProtos.getDescriptor().getEnumTypes().get(0);
     }
 
     private static final MessageType[] VALUES = values();
@@ -287,7 +287,7 @@ public final class MalimProtos {
     }
     public static final com.google.protobuf.Descriptors.EnumDescriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.getDescriptor().getEnumTypes().get(1);
+      return malim.protocol.approach.second.MalimProtos.getDescriptor().getEnumTypes().get(1);
     }
 
     private static final OperationType[] VALUES = values();
@@ -326,7 +326,7 @@ public final class MalimProtos {
      * <code>.MessageType message_type = 1;</code>
      * @return The messageType.
      */
-    malim.protocol.MalimProtos.MessageType getMessageType();
+    malim.protocol.approach.second.MalimProtos.MessageType getMessageType();
 
     /**
      * <code>.OperationType operation_type = 2;</code>
@@ -337,7 +337,7 @@ public final class MalimProtos {
      * <code>.OperationType operation_type = 2;</code>
      * @return The operationType.
      */
-    malim.protocol.MalimProtos.OperationType getOperationType();
+    malim.protocol.approach.second.MalimProtos.OperationType getOperationType();
 
     /**
      * <code>.RequestParameters request_parameters = 3;</code>
@@ -348,11 +348,11 @@ public final class MalimProtos {
      * <code>.RequestParameters request_parameters = 3;</code>
      * @return The requestParameters.
      */
-    malim.protocol.MalimProtos.RequestParameters getRequestParameters();
+    malim.protocol.approach.second.MalimProtos.RequestParameters getRequestParameters();
     /**
      * <code>.RequestParameters request_parameters = 3;</code>
      */
-    malim.protocol.MalimProtos.RequestParametersOrBuilder getRequestParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder getRequestParametersOrBuilder();
 
     /**
      * <code>.ResponseParameters response_parameters = 4;</code>
@@ -363,11 +363,11 @@ public final class MalimProtos {
      * <code>.ResponseParameters response_parameters = 4;</code>
      * @return The responseParameters.
      */
-    malim.protocol.MalimProtos.ResponseParameters getResponseParameters();
+    malim.protocol.approach.second.MalimProtos.ResponseParameters getResponseParameters();
     /**
      * <code>.ResponseParameters response_parameters = 4;</code>
      */
-    malim.protocol.MalimProtos.ResponseParametersOrBuilder getResponseParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder getResponseParametersOrBuilder();
 
     /**
      * <code>.ErrorParameters error_parameters = 5;</code>
@@ -378,13 +378,13 @@ public final class MalimProtos {
      * <code>.ErrorParameters error_parameters = 5;</code>
      * @return The errorParameters.
      */
-    malim.protocol.MalimProtos.ErrorParameters getErrorParameters();
+    malim.protocol.approach.second.MalimProtos.ErrorParameters getErrorParameters();
     /**
      * <code>.ErrorParameters error_parameters = 5;</code>
      */
-    malim.protocol.MalimProtos.ErrorParametersOrBuilder getErrorParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder getErrorParametersOrBuilder();
 
-    malim.protocol.MalimProtos.MalimMessage.ParametersCase getParametersCase();
+    malim.protocol.approach.second.MalimProtos.MalimMessage.ParametersCase getParametersCase();
   }
   /**
    * Protobuf type {@code MalimMessage}
@@ -414,15 +414,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_MalimMessage_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_MalimMessage_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_MalimMessage_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_MalimMessage_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.MalimMessage.class, malim.protocol.MalimProtos.MalimMessage.Builder.class);
+              malim.protocol.approach.second.MalimProtos.MalimMessage.class, malim.protocol.approach.second.MalimProtos.MalimMessage.Builder.class);
     }
 
     private int parametersCase_ = 0;
@@ -482,9 +482,9 @@ public final class MalimProtos {
      * <code>.MessageType message_type = 1;</code>
      * @return The messageType.
      */
-    @java.lang.Override public malim.protocol.MalimProtos.MessageType getMessageType() {
-      malim.protocol.MalimProtos.MessageType result = malim.protocol.MalimProtos.MessageType.forNumber(messageType_);
-      return result == null ? malim.protocol.MalimProtos.MessageType.UNRECOGNIZED : result;
+    @java.lang.Override public malim.protocol.approach.second.MalimProtos.MessageType getMessageType() {
+      malim.protocol.approach.second.MalimProtos.MessageType result = malim.protocol.approach.second.MalimProtos.MessageType.forNumber(messageType_);
+      return result == null ? malim.protocol.approach.second.MalimProtos.MessageType.UNRECOGNIZED : result;
     }
 
     public static final int OPERATION_TYPE_FIELD_NUMBER = 2;
@@ -500,9 +500,9 @@ public final class MalimProtos {
      * <code>.OperationType operation_type = 2;</code>
      * @return The operationType.
      */
-    @java.lang.Override public malim.protocol.MalimProtos.OperationType getOperationType() {
-      malim.protocol.MalimProtos.OperationType result = malim.protocol.MalimProtos.OperationType.forNumber(operationType_);
-      return result == null ? malim.protocol.MalimProtos.OperationType.UNRECOGNIZED : result;
+    @java.lang.Override public malim.protocol.approach.second.MalimProtos.OperationType getOperationType() {
+      malim.protocol.approach.second.MalimProtos.OperationType result = malim.protocol.approach.second.MalimProtos.OperationType.forNumber(operationType_);
+      return result == null ? malim.protocol.approach.second.MalimProtos.OperationType.UNRECOGNIZED : result;
     }
 
     public static final int REQUEST_PARAMETERS_FIELD_NUMBER = 3;
@@ -519,21 +519,21 @@ public final class MalimProtos {
      * @return The requestParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.RequestParameters getRequestParameters() {
+    public malim.protocol.approach.second.MalimProtos.RequestParameters getRequestParameters() {
       if (parametersCase_ == 3) {
-         return (malim.protocol.MalimProtos.RequestParameters) parameters_;
+         return (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_;
       }
-      return malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
     }
     /**
      * <code>.RequestParameters request_parameters = 3;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.RequestParametersOrBuilder getRequestParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder getRequestParametersOrBuilder() {
       if (parametersCase_ == 3) {
-         return (malim.protocol.MalimProtos.RequestParameters) parameters_;
+         return (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_;
       }
-      return malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
     }
 
     public static final int RESPONSE_PARAMETERS_FIELD_NUMBER = 4;
@@ -550,21 +550,21 @@ public final class MalimProtos {
      * @return The responseParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.ResponseParameters getResponseParameters() {
+    public malim.protocol.approach.second.MalimProtos.ResponseParameters getResponseParameters() {
       if (parametersCase_ == 4) {
-         return (malim.protocol.MalimProtos.ResponseParameters) parameters_;
+         return (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_;
       }
-      return malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
     }
     /**
      * <code>.ResponseParameters response_parameters = 4;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.ResponseParametersOrBuilder getResponseParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder getResponseParametersOrBuilder() {
       if (parametersCase_ == 4) {
-         return (malim.protocol.MalimProtos.ResponseParameters) parameters_;
+         return (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_;
       }
-      return malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
     }
 
     public static final int ERROR_PARAMETERS_FIELD_NUMBER = 5;
@@ -581,21 +581,21 @@ public final class MalimProtos {
      * @return The errorParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.ErrorParameters getErrorParameters() {
+    public malim.protocol.approach.second.MalimProtos.ErrorParameters getErrorParameters() {
       if (parametersCase_ == 5) {
-         return (malim.protocol.MalimProtos.ErrorParameters) parameters_;
+         return (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_;
       }
-      return malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
     }
     /**
      * <code>.ErrorParameters error_parameters = 5;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.ErrorParametersOrBuilder getErrorParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder getErrorParametersOrBuilder() {
       if (parametersCase_ == 5) {
-         return (malim.protocol.MalimProtos.ErrorParameters) parameters_;
+         return (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_;
       }
-      return malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -612,20 +612,20 @@ public final class MalimProtos {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (messageType_ != malim.protocol.MalimProtos.MessageType.MESSAGE_TYPE_UNSPECIFIED.getNumber()) {
+      if (messageType_ != malim.protocol.approach.second.MalimProtos.MessageType.MESSAGE_TYPE_UNSPECIFIED.getNumber()) {
         output.writeEnum(1, messageType_);
       }
-      if (operationType_ != malim.protocol.MalimProtos.OperationType.OPERATION_TYPE_UNSPECIFIED.getNumber()) {
+      if (operationType_ != malim.protocol.approach.second.MalimProtos.OperationType.OPERATION_TYPE_UNSPECIFIED.getNumber()) {
         output.writeEnum(2, operationType_);
       }
       if (parametersCase_ == 3) {
-        output.writeMessage(3, (malim.protocol.MalimProtos.RequestParameters) parameters_);
+        output.writeMessage(3, (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_);
       }
       if (parametersCase_ == 4) {
-        output.writeMessage(4, (malim.protocol.MalimProtos.ResponseParameters) parameters_);
+        output.writeMessage(4, (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_);
       }
       if (parametersCase_ == 5) {
-        output.writeMessage(5, (malim.protocol.MalimProtos.ErrorParameters) parameters_);
+        output.writeMessage(5, (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -636,25 +636,25 @@ public final class MalimProtos {
       if (size != -1) return size;
 
       size = 0;
-      if (messageType_ != malim.protocol.MalimProtos.MessageType.MESSAGE_TYPE_UNSPECIFIED.getNumber()) {
+      if (messageType_ != malim.protocol.approach.second.MalimProtos.MessageType.MESSAGE_TYPE_UNSPECIFIED.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, messageType_);
       }
-      if (operationType_ != malim.protocol.MalimProtos.OperationType.OPERATION_TYPE_UNSPECIFIED.getNumber()) {
+      if (operationType_ != malim.protocol.approach.second.MalimProtos.OperationType.OPERATION_TYPE_UNSPECIFIED.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, operationType_);
       }
       if (parametersCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (malim.protocol.MalimProtos.RequestParameters) parameters_);
+          .computeMessageSize(3, (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_);
       }
       if (parametersCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (malim.protocol.MalimProtos.ResponseParameters) parameters_);
+          .computeMessageSize(4, (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_);
       }
       if (parametersCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (malim.protocol.MalimProtos.ErrorParameters) parameters_);
+          .computeMessageSize(5, (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -666,10 +666,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.MalimMessage)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.MalimMessage)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.MalimMessage other = (malim.protocol.MalimProtos.MalimMessage) obj;
+      malim.protocol.approach.second.MalimProtos.MalimMessage other = (malim.protocol.approach.second.MalimProtos.MalimMessage) obj;
 
       if (messageType_ != other.messageType_) return false;
       if (operationType_ != other.operationType_) return false;
@@ -726,44 +726,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -771,26 +771,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.MalimMessage parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.MalimMessage parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.MalimMessage parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -803,7 +803,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.MalimMessage prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.MalimMessage prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -824,18 +824,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:MalimMessage)
-        malim.protocol.MalimProtos.MalimMessageOrBuilder {
+        malim.protocol.approach.second.MalimProtos.MalimMessageOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_MalimMessage_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_MalimMessage_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_MalimMessage_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_MalimMessage_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.MalimMessage.class, malim.protocol.MalimProtos.MalimMessage.Builder.class);
+                malim.protocol.approach.second.MalimProtos.MalimMessage.class, malim.protocol.approach.second.MalimProtos.MalimMessage.Builder.class);
       }
 
       // Construct using malim.MalimProtos.MalimMessage.newBuilder()
@@ -871,17 +871,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_MalimMessage_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_MalimMessage_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.MalimMessage getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.MalimMessage.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.MalimMessage getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.MalimMessage.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.MalimMessage build() {
-        malim.protocol.MalimProtos.MalimMessage result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.MalimMessage build() {
+        malim.protocol.approach.second.MalimProtos.MalimMessage result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -889,15 +889,15 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.MalimMessage buildPartial() {
-        malim.protocol.MalimProtos.MalimMessage result = new malim.protocol.MalimProtos.MalimMessage(this);
+      public malim.protocol.approach.second.MalimProtos.MalimMessage buildPartial() {
+        malim.protocol.approach.second.MalimProtos.MalimMessage result = new malim.protocol.approach.second.MalimProtos.MalimMessage(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         buildPartialOneofs(result);
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.MalimMessage result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.MalimMessage result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.messageType_ = messageType_;
@@ -907,7 +907,7 @@ public final class MalimProtos {
         }
       }
 
-      private void buildPartialOneofs(malim.protocol.MalimProtos.MalimMessage result) {
+      private void buildPartialOneofs(malim.protocol.approach.second.MalimProtos.MalimMessage result) {
         result.parametersCase_ = parametersCase_;
         result.parameters_ = this.parameters_;
         if (parametersCase_ == 3 &&
@@ -926,16 +926,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.MalimMessage) {
-          return mergeFrom((malim.protocol.MalimProtos.MalimMessage)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.MalimMessage) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.MalimMessage)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.MalimMessage other) {
-        if (other == malim.protocol.MalimProtos.MalimMessage.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.MalimMessage other) {
+        if (other == malim.protocol.approach.second.MalimProtos.MalimMessage.getDefaultInstance()) return this;
         if (other.messageType_ != 0) {
           setMessageTypeValue(other.getMessageTypeValue());
         }
@@ -1072,16 +1072,16 @@ public final class MalimProtos {
        * @return The messageType.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.MessageType getMessageType() {
-        malim.protocol.MalimProtos.MessageType result = malim.protocol.MalimProtos.MessageType.forNumber(messageType_);
-        return result == null ? malim.protocol.MalimProtos.MessageType.UNRECOGNIZED : result;
+      public malim.protocol.approach.second.MalimProtos.MessageType getMessageType() {
+        malim.protocol.approach.second.MalimProtos.MessageType result = malim.protocol.approach.second.MalimProtos.MessageType.forNumber(messageType_);
+        return result == null ? malim.protocol.approach.second.MalimProtos.MessageType.UNRECOGNIZED : result;
       }
       /**
        * <code>.MessageType message_type = 1;</code>
        * @param value The messageType to set.
        * @return This builder for chaining.
        */
-      public Builder setMessageType(malim.protocol.MalimProtos.MessageType value) {
+      public Builder setMessageType(malim.protocol.approach.second.MalimProtos.MessageType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1125,16 +1125,16 @@ public final class MalimProtos {
        * @return The operationType.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.OperationType getOperationType() {
-        malim.protocol.MalimProtos.OperationType result = malim.protocol.MalimProtos.OperationType.forNumber(operationType_);
-        return result == null ? malim.protocol.MalimProtos.OperationType.UNRECOGNIZED : result;
+      public malim.protocol.approach.second.MalimProtos.OperationType getOperationType() {
+        malim.protocol.approach.second.MalimProtos.OperationType result = malim.protocol.approach.second.MalimProtos.OperationType.forNumber(operationType_);
+        return result == null ? malim.protocol.approach.second.MalimProtos.OperationType.UNRECOGNIZED : result;
       }
       /**
        * <code>.OperationType operation_type = 2;</code>
        * @param value The operationType to set.
        * @return This builder for chaining.
        */
-      public Builder setOperationType(malim.protocol.MalimProtos.OperationType value) {
+      public Builder setOperationType(malim.protocol.approach.second.MalimProtos.OperationType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1155,7 +1155,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.RequestParameters, malim.protocol.MalimProtos.RequestParameters.Builder, malim.protocol.MalimProtos.RequestParametersOrBuilder> requestParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.RequestParameters, malim.protocol.approach.second.MalimProtos.RequestParameters.Builder, malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder> requestParametersBuilder_;
       /**
        * <code>.RequestParameters request_parameters = 3;</code>
        * @return Whether the requestParameters field is set.
@@ -1169,23 +1169,23 @@ public final class MalimProtos {
        * @return The requestParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.RequestParameters getRequestParameters() {
+      public malim.protocol.approach.second.MalimProtos.RequestParameters getRequestParameters() {
         if (requestParametersBuilder_ == null) {
           if (parametersCase_ == 3) {
-            return (malim.protocol.MalimProtos.RequestParameters) parameters_;
+            return (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_;
           }
-          return malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
         } else {
           if (parametersCase_ == 3) {
             return requestParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.RequestParameters request_parameters = 3;</code>
        */
-      public Builder setRequestParameters(malim.protocol.MalimProtos.RequestParameters value) {
+      public Builder setRequestParameters(malim.protocol.approach.second.MalimProtos.RequestParameters value) {
         if (requestParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1202,7 +1202,7 @@ public final class MalimProtos {
        * <code>.RequestParameters request_parameters = 3;</code>
        */
       public Builder setRequestParameters(
-          malim.protocol.MalimProtos.RequestParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.RequestParameters.Builder builderForValue) {
         if (requestParametersBuilder_ == null) {
           parameters_ = builderForValue.build();
           onChanged();
@@ -1215,11 +1215,11 @@ public final class MalimProtos {
       /**
        * <code>.RequestParameters request_parameters = 3;</code>
        */
-      public Builder mergeRequestParameters(malim.protocol.MalimProtos.RequestParameters value) {
+      public Builder mergeRequestParameters(malim.protocol.approach.second.MalimProtos.RequestParameters value) {
         if (requestParametersBuilder_ == null) {
           if (parametersCase_ == 3 &&
-              parameters_ != malim.protocol.MalimProtos.RequestParameters.getDefaultInstance()) {
-            parameters_ = malim.protocol.MalimProtos.RequestParameters.newBuilder((malim.protocol.MalimProtos.RequestParameters) parameters_)
+              parameters_ != malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance()) {
+            parameters_ = malim.protocol.approach.second.MalimProtos.RequestParameters.newBuilder((malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_)
                 .mergeFrom(value).buildPartial();
           } else {
             parameters_ = value;
@@ -1257,36 +1257,36 @@ public final class MalimProtos {
       /**
        * <code>.RequestParameters request_parameters = 3;</code>
        */
-      public malim.protocol.MalimProtos.RequestParameters.Builder getRequestParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.RequestParameters.Builder getRequestParametersBuilder() {
         return getRequestParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.RequestParameters request_parameters = 3;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.RequestParametersOrBuilder getRequestParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder getRequestParametersOrBuilder() {
         if ((parametersCase_ == 3) && (requestParametersBuilder_ != null)) {
           return requestParametersBuilder_.getMessageOrBuilder();
         } else {
           if (parametersCase_ == 3) {
-            return (malim.protocol.MalimProtos.RequestParameters) parameters_;
+            return (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_;
           }
-          return malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.RequestParameters request_parameters = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.RequestParameters, malim.protocol.MalimProtos.RequestParameters.Builder, malim.protocol.MalimProtos.RequestParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.RequestParameters, malim.protocol.approach.second.MalimProtos.RequestParameters.Builder, malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder> 
           getRequestParametersFieldBuilder() {
         if (requestParametersBuilder_ == null) {
           if (!(parametersCase_ == 3)) {
-            parameters_ = malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+            parameters_ = malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
           }
           requestParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.RequestParameters, malim.protocol.MalimProtos.RequestParameters.Builder, malim.protocol.MalimProtos.RequestParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.RequestParameters) parameters_,
+              malim.protocol.approach.second.MalimProtos.RequestParameters, malim.protocol.approach.second.MalimProtos.RequestParameters.Builder, malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.RequestParameters) parameters_,
                   getParentForChildren(),
                   isClean());
           parameters_ = null;
@@ -1297,7 +1297,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.ResponseParameters, malim.protocol.MalimProtos.ResponseParameters.Builder, malim.protocol.MalimProtos.ResponseParametersOrBuilder> responseParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.ResponseParameters, malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder> responseParametersBuilder_;
       /**
        * <code>.ResponseParameters response_parameters = 4;</code>
        * @return Whether the responseParameters field is set.
@@ -1311,23 +1311,23 @@ public final class MalimProtos {
        * @return The responseParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.ResponseParameters getResponseParameters() {
+      public malim.protocol.approach.second.MalimProtos.ResponseParameters getResponseParameters() {
         if (responseParametersBuilder_ == null) {
           if (parametersCase_ == 4) {
-            return (malim.protocol.MalimProtos.ResponseParameters) parameters_;
+            return (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_;
           }
-          return malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
         } else {
           if (parametersCase_ == 4) {
             return responseParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.ResponseParameters response_parameters = 4;</code>
        */
-      public Builder setResponseParameters(malim.protocol.MalimProtos.ResponseParameters value) {
+      public Builder setResponseParameters(malim.protocol.approach.second.MalimProtos.ResponseParameters value) {
         if (responseParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,7 +1344,7 @@ public final class MalimProtos {
        * <code>.ResponseParameters response_parameters = 4;</code>
        */
       public Builder setResponseParameters(
-          malim.protocol.MalimProtos.ResponseParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder builderForValue) {
         if (responseParametersBuilder_ == null) {
           parameters_ = builderForValue.build();
           onChanged();
@@ -1357,11 +1357,11 @@ public final class MalimProtos {
       /**
        * <code>.ResponseParameters response_parameters = 4;</code>
        */
-      public Builder mergeResponseParameters(malim.protocol.MalimProtos.ResponseParameters value) {
+      public Builder mergeResponseParameters(malim.protocol.approach.second.MalimProtos.ResponseParameters value) {
         if (responseParametersBuilder_ == null) {
           if (parametersCase_ == 4 &&
-              parameters_ != malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance()) {
-            parameters_ = malim.protocol.MalimProtos.ResponseParameters.newBuilder((malim.protocol.MalimProtos.ResponseParameters) parameters_)
+              parameters_ != malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance()) {
+            parameters_ = malim.protocol.approach.second.MalimProtos.ResponseParameters.newBuilder((malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_)
                 .mergeFrom(value).buildPartial();
           } else {
             parameters_ = value;
@@ -1399,36 +1399,36 @@ public final class MalimProtos {
       /**
        * <code>.ResponseParameters response_parameters = 4;</code>
        */
-      public malim.protocol.MalimProtos.ResponseParameters.Builder getResponseParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder getResponseParametersBuilder() {
         return getResponseParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.ResponseParameters response_parameters = 4;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.ResponseParametersOrBuilder getResponseParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder getResponseParametersOrBuilder() {
         if ((parametersCase_ == 4) && (responseParametersBuilder_ != null)) {
           return responseParametersBuilder_.getMessageOrBuilder();
         } else {
           if (parametersCase_ == 4) {
-            return (malim.protocol.MalimProtos.ResponseParameters) parameters_;
+            return (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_;
           }
-          return malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.ResponseParameters response_parameters = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.ResponseParameters, malim.protocol.MalimProtos.ResponseParameters.Builder, malim.protocol.MalimProtos.ResponseParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.ResponseParameters, malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder> 
           getResponseParametersFieldBuilder() {
         if (responseParametersBuilder_ == null) {
           if (!(parametersCase_ == 4)) {
-            parameters_ = malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+            parameters_ = malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
           }
           responseParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.ResponseParameters, malim.protocol.MalimProtos.ResponseParameters.Builder, malim.protocol.MalimProtos.ResponseParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.ResponseParameters) parameters_,
+              malim.protocol.approach.second.MalimProtos.ResponseParameters, malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.ResponseParameters) parameters_,
                   getParentForChildren(),
                   isClean());
           parameters_ = null;
@@ -1439,7 +1439,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.ErrorParameters, malim.protocol.MalimProtos.ErrorParameters.Builder, malim.protocol.MalimProtos.ErrorParametersOrBuilder> errorParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.ErrorParameters, malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder, malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder> errorParametersBuilder_;
       /**
        * <code>.ErrorParameters error_parameters = 5;</code>
        * @return Whether the errorParameters field is set.
@@ -1453,23 +1453,23 @@ public final class MalimProtos {
        * @return The errorParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.ErrorParameters getErrorParameters() {
+      public malim.protocol.approach.second.MalimProtos.ErrorParameters getErrorParameters() {
         if (errorParametersBuilder_ == null) {
           if (parametersCase_ == 5) {
-            return (malim.protocol.MalimProtos.ErrorParameters) parameters_;
+            return (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_;
           }
-          return malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
         } else {
           if (parametersCase_ == 5) {
             return errorParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.ErrorParameters error_parameters = 5;</code>
        */
-      public Builder setErrorParameters(malim.protocol.MalimProtos.ErrorParameters value) {
+      public Builder setErrorParameters(malim.protocol.approach.second.MalimProtos.ErrorParameters value) {
         if (errorParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1486,7 +1486,7 @@ public final class MalimProtos {
        * <code>.ErrorParameters error_parameters = 5;</code>
        */
       public Builder setErrorParameters(
-          malim.protocol.MalimProtos.ErrorParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder builderForValue) {
         if (errorParametersBuilder_ == null) {
           parameters_ = builderForValue.build();
           onChanged();
@@ -1499,11 +1499,11 @@ public final class MalimProtos {
       /**
        * <code>.ErrorParameters error_parameters = 5;</code>
        */
-      public Builder mergeErrorParameters(malim.protocol.MalimProtos.ErrorParameters value) {
+      public Builder mergeErrorParameters(malim.protocol.approach.second.MalimProtos.ErrorParameters value) {
         if (errorParametersBuilder_ == null) {
           if (parametersCase_ == 5 &&
-              parameters_ != malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance()) {
-            parameters_ = malim.protocol.MalimProtos.ErrorParameters.newBuilder((malim.protocol.MalimProtos.ErrorParameters) parameters_)
+              parameters_ != malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance()) {
+            parameters_ = malim.protocol.approach.second.MalimProtos.ErrorParameters.newBuilder((malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_)
                 .mergeFrom(value).buildPartial();
           } else {
             parameters_ = value;
@@ -1541,36 +1541,36 @@ public final class MalimProtos {
       /**
        * <code>.ErrorParameters error_parameters = 5;</code>
        */
-      public malim.protocol.MalimProtos.ErrorParameters.Builder getErrorParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder getErrorParametersBuilder() {
         return getErrorParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.ErrorParameters error_parameters = 5;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.ErrorParametersOrBuilder getErrorParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder getErrorParametersOrBuilder() {
         if ((parametersCase_ == 5) && (errorParametersBuilder_ != null)) {
           return errorParametersBuilder_.getMessageOrBuilder();
         } else {
           if (parametersCase_ == 5) {
-            return (malim.protocol.MalimProtos.ErrorParameters) parameters_;
+            return (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_;
           }
-          return malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.ErrorParameters error_parameters = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.ErrorParameters, malim.protocol.MalimProtos.ErrorParameters.Builder, malim.protocol.MalimProtos.ErrorParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.ErrorParameters, malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder, malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder> 
           getErrorParametersFieldBuilder() {
         if (errorParametersBuilder_ == null) {
           if (!(parametersCase_ == 5)) {
-            parameters_ = malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+            parameters_ = malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
           }
           errorParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.ErrorParameters, malim.protocol.MalimProtos.ErrorParameters.Builder, malim.protocol.MalimProtos.ErrorParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.ErrorParameters) parameters_,
+              malim.protocol.approach.second.MalimProtos.ErrorParameters, malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder, malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.ErrorParameters) parameters_,
                   getParentForChildren(),
                   isClean());
           parameters_ = null;
@@ -1584,12 +1584,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:MalimMessage)
-    private static final malim.protocol.MalimProtos.MalimMessage DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.MalimMessage DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.MalimMessage();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.MalimMessage();
     }
 
-    public static malim.protocol.MalimProtos.MalimMessage getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.MalimMessage getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1625,7 +1625,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.MalimMessage getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.MalimMessage getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1644,11 +1644,11 @@ public final class MalimProtos {
      * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
      * @return The echoRequestParameters.
      */
-    malim.protocol.MalimProtos.EchoRequestParameters getEchoRequestParameters();
+    malim.protocol.approach.second.MalimProtos.EchoRequestParameters getEchoRequestParameters();
     /**
      * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
      */
-    malim.protocol.MalimProtos.EchoRequestParametersOrBuilder getEchoRequestParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder getEchoRequestParametersOrBuilder();
 
     /**
      * <code>.SumRequestParameters sum_request_parameters = 2;</code>
@@ -1659,11 +1659,11 @@ public final class MalimProtos {
      * <code>.SumRequestParameters sum_request_parameters = 2;</code>
      * @return The sumRequestParameters.
      */
-    malim.protocol.MalimProtos.SumRequestParameters getSumRequestParameters();
+    malim.protocol.approach.second.MalimProtos.SumRequestParameters getSumRequestParameters();
     /**
      * <code>.SumRequestParameters sum_request_parameters = 2;</code>
      */
-    malim.protocol.MalimProtos.SumRequestParametersOrBuilder getSumRequestParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder getSumRequestParametersOrBuilder();
 
     /**
      * <code>.CountRequestParameters count_request_parameters = 3;</code>
@@ -1674,11 +1674,11 @@ public final class MalimProtos {
      * <code>.CountRequestParameters count_request_parameters = 3;</code>
      * @return The countRequestParameters.
      */
-    malim.protocol.MalimProtos.CountRequestParameters getCountRequestParameters();
+    malim.protocol.approach.second.MalimProtos.CountRequestParameters getCountRequestParameters();
     /**
      * <code>.CountRequestParameters count_request_parameters = 3;</code>
      */
-    malim.protocol.MalimProtos.CountRequestParametersOrBuilder getCountRequestParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder getCountRequestParametersOrBuilder();
 
     /**
      * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
@@ -1689,11 +1689,11 @@ public final class MalimProtos {
      * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
      * @return The disconnectRequestParameters.
      */
-    malim.protocol.MalimProtos.DisconnectRequestParameters getDisconnectRequestParameters();
+    malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters getDisconnectRequestParameters();
     /**
      * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
      */
-    malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder getDisconnectRequestParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder getDisconnectRequestParametersOrBuilder();
 
     /**
      * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
@@ -1704,13 +1704,13 @@ public final class MalimProtos {
      * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
      * @return The quitRequestParameters.
      */
-    malim.protocol.MalimProtos.QuitRequestParameters getQuitRequestParameters();
+    malim.protocol.approach.second.MalimProtos.QuitRequestParameters getQuitRequestParameters();
     /**
      * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
      */
-    malim.protocol.MalimProtos.QuitRequestParametersOrBuilder getQuitRequestParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder getQuitRequestParametersOrBuilder();
 
-    malim.protocol.MalimProtos.RequestParameters.RequestTypesCase getRequestTypesCase();
+    malim.protocol.approach.second.MalimProtos.RequestParameters.RequestTypesCase getRequestTypesCase();
   }
   /**
    * Protobuf type {@code RequestParameters}
@@ -1738,15 +1738,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_RequestParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_RequestParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_RequestParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_RequestParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.RequestParameters.class, malim.protocol.MalimProtos.RequestParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.RequestParameters.class, malim.protocol.approach.second.MalimProtos.RequestParameters.Builder.class);
     }
 
     private int requestTypesCase_ = 0;
@@ -1811,21 +1811,21 @@ public final class MalimProtos {
      * @return The echoRequestParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.EchoRequestParameters getEchoRequestParameters() {
+    public malim.protocol.approach.second.MalimProtos.EchoRequestParameters getEchoRequestParameters() {
       if (requestTypesCase_ == 1) {
-         return (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
     }
     /**
      * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.EchoRequestParametersOrBuilder getEchoRequestParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder getEchoRequestParametersOrBuilder() {
       if (requestTypesCase_ == 1) {
-         return (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
     }
 
     public static final int SUM_REQUEST_PARAMETERS_FIELD_NUMBER = 2;
@@ -1842,21 +1842,21 @@ public final class MalimProtos {
      * @return The sumRequestParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.SumRequestParameters getSumRequestParameters() {
+    public malim.protocol.approach.second.MalimProtos.SumRequestParameters getSumRequestParameters() {
       if (requestTypesCase_ == 2) {
-         return (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
     }
     /**
      * <code>.SumRequestParameters sum_request_parameters = 2;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.SumRequestParametersOrBuilder getSumRequestParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder getSumRequestParametersOrBuilder() {
       if (requestTypesCase_ == 2) {
-         return (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
     }
 
     public static final int COUNT_REQUEST_PARAMETERS_FIELD_NUMBER = 3;
@@ -1873,21 +1873,21 @@ public final class MalimProtos {
      * @return The countRequestParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.CountRequestParameters getCountRequestParameters() {
+    public malim.protocol.approach.second.MalimProtos.CountRequestParameters getCountRequestParameters() {
       if (requestTypesCase_ == 3) {
-         return (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
     }
     /**
      * <code>.CountRequestParameters count_request_parameters = 3;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.CountRequestParametersOrBuilder getCountRequestParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder getCountRequestParametersOrBuilder() {
       if (requestTypesCase_ == 3) {
-         return (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
     }
 
     public static final int DISCONNECT_REQUEST_PARAMETERS_FIELD_NUMBER = 4;
@@ -1904,21 +1904,21 @@ public final class MalimProtos {
      * @return The disconnectRequestParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.DisconnectRequestParameters getDisconnectRequestParameters() {
+    public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters getDisconnectRequestParameters() {
       if (requestTypesCase_ == 4) {
-         return (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
     }
     /**
      * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder getDisconnectRequestParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder getDisconnectRequestParametersOrBuilder() {
       if (requestTypesCase_ == 4) {
-         return (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
     }
 
     public static final int QUIT_REQUEST_PARAMETERS_FIELD_NUMBER = 5;
@@ -1935,21 +1935,21 @@ public final class MalimProtos {
      * @return The quitRequestParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.QuitRequestParameters getQuitRequestParameters() {
+    public malim.protocol.approach.second.MalimProtos.QuitRequestParameters getQuitRequestParameters() {
       if (requestTypesCase_ == 5) {
-         return (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
     }
     /**
      * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.QuitRequestParametersOrBuilder getQuitRequestParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder getQuitRequestParametersOrBuilder() {
       if (requestTypesCase_ == 5) {
-         return (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_;
+         return (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_;
       }
-      return malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1967,19 +1967,19 @@ public final class MalimProtos {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (requestTypesCase_ == 1) {
-        output.writeMessage(1, (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_);
+        output.writeMessage(1, (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 2) {
-        output.writeMessage(2, (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_);
+        output.writeMessage(2, (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 3) {
-        output.writeMessage(3, (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_);
+        output.writeMessage(3, (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 4) {
-        output.writeMessage(4, (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_);
+        output.writeMessage(4, (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 5) {
-        output.writeMessage(5, (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_);
+        output.writeMessage(5, (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -1992,23 +1992,23 @@ public final class MalimProtos {
       size = 0;
       if (requestTypesCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_);
+          .computeMessageSize(1, (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_);
+          .computeMessageSize(2, (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_);
+          .computeMessageSize(3, (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_);
+          .computeMessageSize(4, (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_);
       }
       if (requestTypesCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_);
+          .computeMessageSize(5, (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -2020,10 +2020,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.RequestParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.RequestParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.RequestParameters other = (malim.protocol.MalimProtos.RequestParameters) obj;
+      malim.protocol.approach.second.MalimProtos.RequestParameters other = (malim.protocol.approach.second.MalimProtos.RequestParameters) obj;
 
       if (!getRequestTypesCase().equals(other.getRequestTypesCase())) return false;
       switch (requestTypesCase_) {
@@ -2090,44 +2090,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2135,26 +2135,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.RequestParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.RequestParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.RequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2167,7 +2167,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.RequestParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.RequestParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2188,18 +2188,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:RequestParameters)
-        malim.protocol.MalimProtos.RequestParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.RequestParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_RequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_RequestParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_RequestParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_RequestParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.RequestParameters.class, malim.protocol.MalimProtos.RequestParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.RequestParameters.class, malim.protocol.approach.second.MalimProtos.RequestParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.RequestParameters.newBuilder()
@@ -2239,17 +2239,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_RequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_RequestParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.RequestParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.RequestParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.RequestParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.RequestParameters build() {
-        malim.protocol.MalimProtos.RequestParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.RequestParameters build() {
+        malim.protocol.approach.second.MalimProtos.RequestParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2257,19 +2257,19 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.RequestParameters buildPartial() {
-        malim.protocol.MalimProtos.RequestParameters result = new malim.protocol.MalimProtos.RequestParameters(this);
+      public malim.protocol.approach.second.MalimProtos.RequestParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.RequestParameters result = new malim.protocol.approach.second.MalimProtos.RequestParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         buildPartialOneofs(result);
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.RequestParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.RequestParameters result) {
         int from_bitField0_ = bitField0_;
       }
 
-      private void buildPartialOneofs(malim.protocol.MalimProtos.RequestParameters result) {
+      private void buildPartialOneofs(malim.protocol.approach.second.MalimProtos.RequestParameters result) {
         result.requestTypesCase_ = requestTypesCase_;
         result.requestTypes_ = this.requestTypes_;
         if (requestTypesCase_ == 1 &&
@@ -2296,16 +2296,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.RequestParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.RequestParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.RequestParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.RequestParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.RequestParameters other) {
-        if (other == malim.protocol.MalimProtos.RequestParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.RequestParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.RequestParameters.getDefaultInstance()) return this;
         switch (other.getRequestTypesCase()) {
           case ECHO_REQUEST_PARAMETERS: {
             mergeEchoRequestParameters(other.getEchoRequestParameters());
@@ -2425,7 +2425,7 @@ public final class MalimProtos {
       private int bitField0_;
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.EchoRequestParameters, malim.protocol.MalimProtos.EchoRequestParameters.Builder, malim.protocol.MalimProtos.EchoRequestParametersOrBuilder> echoRequestParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.EchoRequestParameters, malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder> echoRequestParametersBuilder_;
       /**
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        * @return Whether the echoRequestParameters field is set.
@@ -2439,23 +2439,23 @@ public final class MalimProtos {
        * @return The echoRequestParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoRequestParameters getEchoRequestParameters() {
+      public malim.protocol.approach.second.MalimProtos.EchoRequestParameters getEchoRequestParameters() {
         if (echoRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 1) {
-            return (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
         } else {
           if (requestTypesCase_ == 1) {
             return echoRequestParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        */
-      public Builder setEchoRequestParameters(malim.protocol.MalimProtos.EchoRequestParameters value) {
+      public Builder setEchoRequestParameters(malim.protocol.approach.second.MalimProtos.EchoRequestParameters value) {
         if (echoRequestParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2472,7 +2472,7 @@ public final class MalimProtos {
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        */
       public Builder setEchoRequestParameters(
-          malim.protocol.MalimProtos.EchoRequestParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder builderForValue) {
         if (echoRequestParametersBuilder_ == null) {
           requestTypes_ = builderForValue.build();
           onChanged();
@@ -2485,11 +2485,11 @@ public final class MalimProtos {
       /**
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        */
-      public Builder mergeEchoRequestParameters(malim.protocol.MalimProtos.EchoRequestParameters value) {
+      public Builder mergeEchoRequestParameters(malim.protocol.approach.second.MalimProtos.EchoRequestParameters value) {
         if (echoRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 1 &&
-              requestTypes_ != malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance()) {
-            requestTypes_ = malim.protocol.MalimProtos.EchoRequestParameters.newBuilder((malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_)
+              requestTypes_ != malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance()) {
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.EchoRequestParameters.newBuilder((malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestTypes_ = value;
@@ -2527,36 +2527,36 @@ public final class MalimProtos {
       /**
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        */
-      public malim.protocol.MalimProtos.EchoRequestParameters.Builder getEchoRequestParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder getEchoRequestParametersBuilder() {
         return getEchoRequestParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoRequestParametersOrBuilder getEchoRequestParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder getEchoRequestParametersOrBuilder() {
         if ((requestTypesCase_ == 1) && (echoRequestParametersBuilder_ != null)) {
           return echoRequestParametersBuilder_.getMessageOrBuilder();
         } else {
           if (requestTypesCase_ == 1) {
-            return (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.EchoRequestParameters echo_request_parameters = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.EchoRequestParameters, malim.protocol.MalimProtos.EchoRequestParameters.Builder, malim.protocol.MalimProtos.EchoRequestParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.EchoRequestParameters, malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder> 
           getEchoRequestParametersFieldBuilder() {
         if (echoRequestParametersBuilder_ == null) {
           if (!(requestTypesCase_ == 1)) {
-            requestTypes_ = malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
           }
           echoRequestParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.EchoRequestParameters, malim.protocol.MalimProtos.EchoRequestParameters.Builder, malim.protocol.MalimProtos.EchoRequestParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.EchoRequestParameters) requestTypes_,
+              malim.protocol.approach.second.MalimProtos.EchoRequestParameters, malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) requestTypes_,
                   getParentForChildren(),
                   isClean());
           requestTypes_ = null;
@@ -2567,7 +2567,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.SumRequestParameters, malim.protocol.MalimProtos.SumRequestParameters.Builder, malim.protocol.MalimProtos.SumRequestParametersOrBuilder> sumRequestParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.SumRequestParameters, malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder> sumRequestParametersBuilder_;
       /**
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        * @return Whether the sumRequestParameters field is set.
@@ -2581,23 +2581,23 @@ public final class MalimProtos {
        * @return The sumRequestParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumRequestParameters getSumRequestParameters() {
+      public malim.protocol.approach.second.MalimProtos.SumRequestParameters getSumRequestParameters() {
         if (sumRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 2) {
-            return (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
         } else {
           if (requestTypesCase_ == 2) {
             return sumRequestParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        */
-      public Builder setSumRequestParameters(malim.protocol.MalimProtos.SumRequestParameters value) {
+      public Builder setSumRequestParameters(malim.protocol.approach.second.MalimProtos.SumRequestParameters value) {
         if (sumRequestParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2614,7 +2614,7 @@ public final class MalimProtos {
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        */
       public Builder setSumRequestParameters(
-          malim.protocol.MalimProtos.SumRequestParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder builderForValue) {
         if (sumRequestParametersBuilder_ == null) {
           requestTypes_ = builderForValue.build();
           onChanged();
@@ -2627,11 +2627,11 @@ public final class MalimProtos {
       /**
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        */
-      public Builder mergeSumRequestParameters(malim.protocol.MalimProtos.SumRequestParameters value) {
+      public Builder mergeSumRequestParameters(malim.protocol.approach.second.MalimProtos.SumRequestParameters value) {
         if (sumRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 2 &&
-              requestTypes_ != malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance()) {
-            requestTypes_ = malim.protocol.MalimProtos.SumRequestParameters.newBuilder((malim.protocol.MalimProtos.SumRequestParameters) requestTypes_)
+              requestTypes_ != malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance()) {
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.SumRequestParameters.newBuilder((malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestTypes_ = value;
@@ -2669,36 +2669,36 @@ public final class MalimProtos {
       /**
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        */
-      public malim.protocol.MalimProtos.SumRequestParameters.Builder getSumRequestParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder getSumRequestParametersBuilder() {
         return getSumRequestParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumRequestParametersOrBuilder getSumRequestParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder getSumRequestParametersOrBuilder() {
         if ((requestTypesCase_ == 2) && (sumRequestParametersBuilder_ != null)) {
           return sumRequestParametersBuilder_.getMessageOrBuilder();
         } else {
           if (requestTypesCase_ == 2) {
-            return (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.SumRequestParameters sum_request_parameters = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.SumRequestParameters, malim.protocol.MalimProtos.SumRequestParameters.Builder, malim.protocol.MalimProtos.SumRequestParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.SumRequestParameters, malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder> 
           getSumRequestParametersFieldBuilder() {
         if (sumRequestParametersBuilder_ == null) {
           if (!(requestTypesCase_ == 2)) {
-            requestTypes_ = malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
           }
           sumRequestParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.SumRequestParameters, malim.protocol.MalimProtos.SumRequestParameters.Builder, malim.protocol.MalimProtos.SumRequestParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.SumRequestParameters) requestTypes_,
+              malim.protocol.approach.second.MalimProtos.SumRequestParameters, malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.SumRequestParameters) requestTypes_,
                   getParentForChildren(),
                   isClean());
           requestTypes_ = null;
@@ -2709,7 +2709,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.CountRequestParameters, malim.protocol.MalimProtos.CountRequestParameters.Builder, malim.protocol.MalimProtos.CountRequestParametersOrBuilder> countRequestParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.CountRequestParameters, malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder> countRequestParametersBuilder_;
       /**
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        * @return Whether the countRequestParameters field is set.
@@ -2723,23 +2723,23 @@ public final class MalimProtos {
        * @return The countRequestParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountRequestParameters getCountRequestParameters() {
+      public malim.protocol.approach.second.MalimProtos.CountRequestParameters getCountRequestParameters() {
         if (countRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 3) {
-            return (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
         } else {
           if (requestTypesCase_ == 3) {
             return countRequestParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        */
-      public Builder setCountRequestParameters(malim.protocol.MalimProtos.CountRequestParameters value) {
+      public Builder setCountRequestParameters(malim.protocol.approach.second.MalimProtos.CountRequestParameters value) {
         if (countRequestParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2756,7 +2756,7 @@ public final class MalimProtos {
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        */
       public Builder setCountRequestParameters(
-          malim.protocol.MalimProtos.CountRequestParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder builderForValue) {
         if (countRequestParametersBuilder_ == null) {
           requestTypes_ = builderForValue.build();
           onChanged();
@@ -2769,11 +2769,11 @@ public final class MalimProtos {
       /**
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        */
-      public Builder mergeCountRequestParameters(malim.protocol.MalimProtos.CountRequestParameters value) {
+      public Builder mergeCountRequestParameters(malim.protocol.approach.second.MalimProtos.CountRequestParameters value) {
         if (countRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 3 &&
-              requestTypes_ != malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance()) {
-            requestTypes_ = malim.protocol.MalimProtos.CountRequestParameters.newBuilder((malim.protocol.MalimProtos.CountRequestParameters) requestTypes_)
+              requestTypes_ != malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance()) {
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.CountRequestParameters.newBuilder((malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestTypes_ = value;
@@ -2811,36 +2811,36 @@ public final class MalimProtos {
       /**
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        */
-      public malim.protocol.MalimProtos.CountRequestParameters.Builder getCountRequestParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder getCountRequestParametersBuilder() {
         return getCountRequestParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountRequestParametersOrBuilder getCountRequestParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder getCountRequestParametersOrBuilder() {
         if ((requestTypesCase_ == 3) && (countRequestParametersBuilder_ != null)) {
           return countRequestParametersBuilder_.getMessageOrBuilder();
         } else {
           if (requestTypesCase_ == 3) {
-            return (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.CountRequestParameters count_request_parameters = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.CountRequestParameters, malim.protocol.MalimProtos.CountRequestParameters.Builder, malim.protocol.MalimProtos.CountRequestParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.CountRequestParameters, malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder> 
           getCountRequestParametersFieldBuilder() {
         if (countRequestParametersBuilder_ == null) {
           if (!(requestTypesCase_ == 3)) {
-            requestTypes_ = malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
           }
           countRequestParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.CountRequestParameters, malim.protocol.MalimProtos.CountRequestParameters.Builder, malim.protocol.MalimProtos.CountRequestParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.CountRequestParameters) requestTypes_,
+              malim.protocol.approach.second.MalimProtos.CountRequestParameters, malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.CountRequestParameters) requestTypes_,
                   getParentForChildren(),
                   isClean());
           requestTypes_ = null;
@@ -2851,7 +2851,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.DisconnectRequestParameters, malim.protocol.MalimProtos.DisconnectRequestParameters.Builder, malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder> disconnectRequestParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters, malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder> disconnectRequestParametersBuilder_;
       /**
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        * @return Whether the disconnectRequestParameters field is set.
@@ -2865,23 +2865,23 @@ public final class MalimProtos {
        * @return The disconnectRequestParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectRequestParameters getDisconnectRequestParameters() {
+      public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters getDisconnectRequestParameters() {
         if (disconnectRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 4) {
-            return (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
         } else {
           if (requestTypesCase_ == 4) {
             return disconnectRequestParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        */
-      public Builder setDisconnectRequestParameters(malim.protocol.MalimProtos.DisconnectRequestParameters value) {
+      public Builder setDisconnectRequestParameters(malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters value) {
         if (disconnectRequestParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2898,7 +2898,7 @@ public final class MalimProtos {
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        */
       public Builder setDisconnectRequestParameters(
-          malim.protocol.MalimProtos.DisconnectRequestParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder builderForValue) {
         if (disconnectRequestParametersBuilder_ == null) {
           requestTypes_ = builderForValue.build();
           onChanged();
@@ -2911,11 +2911,11 @@ public final class MalimProtos {
       /**
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        */
-      public Builder mergeDisconnectRequestParameters(malim.protocol.MalimProtos.DisconnectRequestParameters value) {
+      public Builder mergeDisconnectRequestParameters(malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters value) {
         if (disconnectRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 4 &&
-              requestTypes_ != malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance()) {
-            requestTypes_ = malim.protocol.MalimProtos.DisconnectRequestParameters.newBuilder((malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_)
+              requestTypes_ != malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance()) {
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.newBuilder((malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestTypes_ = value;
@@ -2953,36 +2953,36 @@ public final class MalimProtos {
       /**
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        */
-      public malim.protocol.MalimProtos.DisconnectRequestParameters.Builder getDisconnectRequestParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder getDisconnectRequestParametersBuilder() {
         return getDisconnectRequestParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder getDisconnectRequestParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder getDisconnectRequestParametersOrBuilder() {
         if ((requestTypesCase_ == 4) && (disconnectRequestParametersBuilder_ != null)) {
           return disconnectRequestParametersBuilder_.getMessageOrBuilder();
         } else {
           if (requestTypesCase_ == 4) {
-            return (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.DisconnectRequestParameters disconnect_request_parameters = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.DisconnectRequestParameters, malim.protocol.MalimProtos.DisconnectRequestParameters.Builder, malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters, malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder> 
           getDisconnectRequestParametersFieldBuilder() {
         if (disconnectRequestParametersBuilder_ == null) {
           if (!(requestTypesCase_ == 4)) {
-            requestTypes_ = malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
           }
           disconnectRequestParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.DisconnectRequestParameters, malim.protocol.MalimProtos.DisconnectRequestParameters.Builder, malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.DisconnectRequestParameters) requestTypes_,
+              malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters, malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) requestTypes_,
                   getParentForChildren(),
                   isClean());
           requestTypes_ = null;
@@ -2993,7 +2993,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.QuitRequestParameters, malim.protocol.MalimProtos.QuitRequestParameters.Builder, malim.protocol.MalimProtos.QuitRequestParametersOrBuilder> quitRequestParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.QuitRequestParameters, malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder> quitRequestParametersBuilder_;
       /**
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        * @return Whether the quitRequestParameters field is set.
@@ -3007,23 +3007,23 @@ public final class MalimProtos {
        * @return The quitRequestParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitRequestParameters getQuitRequestParameters() {
+      public malim.protocol.approach.second.MalimProtos.QuitRequestParameters getQuitRequestParameters() {
         if (quitRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 5) {
-            return (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
         } else {
           if (requestTypesCase_ == 5) {
             return quitRequestParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        */
-      public Builder setQuitRequestParameters(malim.protocol.MalimProtos.QuitRequestParameters value) {
+      public Builder setQuitRequestParameters(malim.protocol.approach.second.MalimProtos.QuitRequestParameters value) {
         if (quitRequestParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3040,7 +3040,7 @@ public final class MalimProtos {
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        */
       public Builder setQuitRequestParameters(
-          malim.protocol.MalimProtos.QuitRequestParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder builderForValue) {
         if (quitRequestParametersBuilder_ == null) {
           requestTypes_ = builderForValue.build();
           onChanged();
@@ -3053,11 +3053,11 @@ public final class MalimProtos {
       /**
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        */
-      public Builder mergeQuitRequestParameters(malim.protocol.MalimProtos.QuitRequestParameters value) {
+      public Builder mergeQuitRequestParameters(malim.protocol.approach.second.MalimProtos.QuitRequestParameters value) {
         if (quitRequestParametersBuilder_ == null) {
           if (requestTypesCase_ == 5 &&
-              requestTypes_ != malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance()) {
-            requestTypes_ = malim.protocol.MalimProtos.QuitRequestParameters.newBuilder((malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_)
+              requestTypes_ != malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance()) {
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.QuitRequestParameters.newBuilder((malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestTypes_ = value;
@@ -3095,36 +3095,36 @@ public final class MalimProtos {
       /**
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        */
-      public malim.protocol.MalimProtos.QuitRequestParameters.Builder getQuitRequestParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder getQuitRequestParametersBuilder() {
         return getQuitRequestParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitRequestParametersOrBuilder getQuitRequestParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder getQuitRequestParametersOrBuilder() {
         if ((requestTypesCase_ == 5) && (quitRequestParametersBuilder_ != null)) {
           return quitRequestParametersBuilder_.getMessageOrBuilder();
         } else {
           if (requestTypesCase_ == 5) {
-            return (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_;
+            return (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_;
           }
-          return malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.QuitRequestParameters quit_request_parameters = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.QuitRequestParameters, malim.protocol.MalimProtos.QuitRequestParameters.Builder, malim.protocol.MalimProtos.QuitRequestParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.QuitRequestParameters, malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder> 
           getQuitRequestParametersFieldBuilder() {
         if (quitRequestParametersBuilder_ == null) {
           if (!(requestTypesCase_ == 5)) {
-            requestTypes_ = malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+            requestTypes_ = malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
           }
           quitRequestParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.QuitRequestParameters, malim.protocol.MalimProtos.QuitRequestParameters.Builder, malim.protocol.MalimProtos.QuitRequestParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.QuitRequestParameters) requestTypes_,
+              malim.protocol.approach.second.MalimProtos.QuitRequestParameters, malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder, malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) requestTypes_,
                   getParentForChildren(),
                   isClean());
           requestTypes_ = null;
@@ -3138,12 +3138,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:RequestParameters)
-    private static final malim.protocol.MalimProtos.RequestParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.RequestParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.RequestParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.RequestParameters();
     }
 
-    public static malim.protocol.MalimProtos.RequestParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.RequestParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3179,7 +3179,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.RequestParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.RequestParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3198,11 +3198,11 @@ public final class MalimProtos {
      * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
      * @return The echoResponseParameters.
      */
-    malim.protocol.MalimProtos.EchoResponseParameters getEchoResponseParameters();
+    malim.protocol.approach.second.MalimProtos.EchoResponseParameters getEchoResponseParameters();
     /**
      * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
      */
-    malim.protocol.MalimProtos.EchoResponseParametersOrBuilder getEchoResponseParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder getEchoResponseParametersOrBuilder();
 
     /**
      * <code>.SumResponseParameters sum_response_parameters = 2;</code>
@@ -3213,11 +3213,11 @@ public final class MalimProtos {
      * <code>.SumResponseParameters sum_response_parameters = 2;</code>
      * @return The sumResponseParameters.
      */
-    malim.protocol.MalimProtos.SumResponseParameters getSumResponseParameters();
+    malim.protocol.approach.second.MalimProtos.SumResponseParameters getSumResponseParameters();
     /**
      * <code>.SumResponseParameters sum_response_parameters = 2;</code>
      */
-    malim.protocol.MalimProtos.SumResponseParametersOrBuilder getSumResponseParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder getSumResponseParametersOrBuilder();
 
     /**
      * <code>.CountResponseParameters count_response_parameters = 3;</code>
@@ -3228,11 +3228,11 @@ public final class MalimProtos {
      * <code>.CountResponseParameters count_response_parameters = 3;</code>
      * @return The countResponseParameters.
      */
-    malim.protocol.MalimProtos.CountResponseParameters getCountResponseParameters();
+    malim.protocol.approach.second.MalimProtos.CountResponseParameters getCountResponseParameters();
     /**
      * <code>.CountResponseParameters count_response_parameters = 3;</code>
      */
-    malim.protocol.MalimProtos.CountResponseParametersOrBuilder getCountResponseParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder getCountResponseParametersOrBuilder();
 
     /**
      * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
@@ -3243,11 +3243,11 @@ public final class MalimProtos {
      * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
      * @return The disconnectResponseParameters.
      */
-    malim.protocol.MalimProtos.DisconnectResponseParameters getDisconnectResponseParameters();
+    malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters getDisconnectResponseParameters();
     /**
      * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
      */
-    malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder getDisconnectResponseParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder getDisconnectResponseParametersOrBuilder();
 
     /**
      * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
@@ -3258,13 +3258,13 @@ public final class MalimProtos {
      * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
      * @return The quitResponseParameters.
      */
-    malim.protocol.MalimProtos.QuitResponseParameters getQuitResponseParameters();
+    malim.protocol.approach.second.MalimProtos.QuitResponseParameters getQuitResponseParameters();
     /**
      * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
      */
-    malim.protocol.MalimProtos.QuitResponseParametersOrBuilder getQuitResponseParametersOrBuilder();
+    malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder getQuitResponseParametersOrBuilder();
 
-    malim.protocol.MalimProtos.ResponseParameters.ResponseTypesCase getResponseTypesCase();
+    malim.protocol.approach.second.MalimProtos.ResponseParameters.ResponseTypesCase getResponseTypesCase();
   }
   /**
    * Protobuf type {@code ResponseParameters}
@@ -3292,15 +3292,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_ResponseParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_ResponseParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_ResponseParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_ResponseParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.ResponseParameters.class, malim.protocol.MalimProtos.ResponseParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.ResponseParameters.class, malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder.class);
     }
 
     private int responseTypesCase_ = 0;
@@ -3365,21 +3365,21 @@ public final class MalimProtos {
      * @return The echoResponseParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.EchoResponseParameters getEchoResponseParameters() {
+    public malim.protocol.approach.second.MalimProtos.EchoResponseParameters getEchoResponseParameters() {
       if (responseTypesCase_ == 1) {
-         return (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
     }
     /**
      * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.EchoResponseParametersOrBuilder getEchoResponseParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder getEchoResponseParametersOrBuilder() {
       if (responseTypesCase_ == 1) {
-         return (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
     }
 
     public static final int SUM_RESPONSE_PARAMETERS_FIELD_NUMBER = 2;
@@ -3396,21 +3396,21 @@ public final class MalimProtos {
      * @return The sumResponseParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.SumResponseParameters getSumResponseParameters() {
+    public malim.protocol.approach.second.MalimProtos.SumResponseParameters getSumResponseParameters() {
       if (responseTypesCase_ == 2) {
-         return (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
     }
     /**
      * <code>.SumResponseParameters sum_response_parameters = 2;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.SumResponseParametersOrBuilder getSumResponseParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder getSumResponseParametersOrBuilder() {
       if (responseTypesCase_ == 2) {
-         return (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
     }
 
     public static final int COUNT_RESPONSE_PARAMETERS_FIELD_NUMBER = 3;
@@ -3427,21 +3427,21 @@ public final class MalimProtos {
      * @return The countResponseParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.CountResponseParameters getCountResponseParameters() {
+    public malim.protocol.approach.second.MalimProtos.CountResponseParameters getCountResponseParameters() {
       if (responseTypesCase_ == 3) {
-         return (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
     }
     /**
      * <code>.CountResponseParameters count_response_parameters = 3;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.CountResponseParametersOrBuilder getCountResponseParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder getCountResponseParametersOrBuilder() {
       if (responseTypesCase_ == 3) {
-         return (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
     }
 
     public static final int DISCONNECT_RESPONSE_PARAMETERS_FIELD_NUMBER = 4;
@@ -3458,21 +3458,21 @@ public final class MalimProtos {
      * @return The disconnectResponseParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.DisconnectResponseParameters getDisconnectResponseParameters() {
+    public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters getDisconnectResponseParameters() {
       if (responseTypesCase_ == 4) {
-         return (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
     }
     /**
      * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder getDisconnectResponseParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder getDisconnectResponseParametersOrBuilder() {
       if (responseTypesCase_ == 4) {
-         return (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
     }
 
     public static final int QUIT_RESPONSE_PARAMETERS_FIELD_NUMBER = 5;
@@ -3489,21 +3489,21 @@ public final class MalimProtos {
      * @return The quitResponseParameters.
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.QuitResponseParameters getQuitResponseParameters() {
+    public malim.protocol.approach.second.MalimProtos.QuitResponseParameters getQuitResponseParameters() {
       if (responseTypesCase_ == 5) {
-         return (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
     }
     /**
      * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
      */
     @java.lang.Override
-    public malim.protocol.MalimProtos.QuitResponseParametersOrBuilder getQuitResponseParametersOrBuilder() {
+    public malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder getQuitResponseParametersOrBuilder() {
       if (responseTypesCase_ == 5) {
-         return (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_;
+         return (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_;
       }
-      return malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+      return malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -3521,19 +3521,19 @@ public final class MalimProtos {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (responseTypesCase_ == 1) {
-        output.writeMessage(1, (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_);
+        output.writeMessage(1, (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 2) {
-        output.writeMessage(2, (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_);
+        output.writeMessage(2, (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 3) {
-        output.writeMessage(3, (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_);
+        output.writeMessage(3, (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 4) {
-        output.writeMessage(4, (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_);
+        output.writeMessage(4, (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 5) {
-        output.writeMessage(5, (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_);
+        output.writeMessage(5, (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -3546,23 +3546,23 @@ public final class MalimProtos {
       size = 0;
       if (responseTypesCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_);
+          .computeMessageSize(1, (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_);
+          .computeMessageSize(2, (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_);
+          .computeMessageSize(3, (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_);
+          .computeMessageSize(4, (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_);
       }
       if (responseTypesCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_);
+          .computeMessageSize(5, (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSize = size;
@@ -3574,10 +3574,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.ResponseParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.ResponseParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.ResponseParameters other = (malim.protocol.MalimProtos.ResponseParameters) obj;
+      malim.protocol.approach.second.MalimProtos.ResponseParameters other = (malim.protocol.approach.second.MalimProtos.ResponseParameters) obj;
 
       if (!getResponseTypesCase().equals(other.getResponseTypesCase())) return false;
       switch (responseTypesCase_) {
@@ -3644,44 +3644,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3689,26 +3689,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.ResponseParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.ResponseParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.ResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3721,7 +3721,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.ResponseParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.ResponseParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3742,18 +3742,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:ResponseParameters)
-        malim.protocol.MalimProtos.ResponseParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.ResponseParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_ResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_ResponseParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_ResponseParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_ResponseParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.ResponseParameters.class, malim.protocol.MalimProtos.ResponseParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.ResponseParameters.class, malim.protocol.approach.second.MalimProtos.ResponseParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.ResponseParameters.newBuilder()
@@ -3793,17 +3793,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_ResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_ResponseParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.ResponseParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.ResponseParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.ResponseParameters build() {
-        malim.protocol.MalimProtos.ResponseParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.ResponseParameters build() {
+        malim.protocol.approach.second.MalimProtos.ResponseParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3811,19 +3811,19 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.ResponseParameters buildPartial() {
-        malim.protocol.MalimProtos.ResponseParameters result = new malim.protocol.MalimProtos.ResponseParameters(this);
+      public malim.protocol.approach.second.MalimProtos.ResponseParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.ResponseParameters result = new malim.protocol.approach.second.MalimProtos.ResponseParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         buildPartialOneofs(result);
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.ResponseParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.ResponseParameters result) {
         int from_bitField0_ = bitField0_;
       }
 
-      private void buildPartialOneofs(malim.protocol.MalimProtos.ResponseParameters result) {
+      private void buildPartialOneofs(malim.protocol.approach.second.MalimProtos.ResponseParameters result) {
         result.responseTypesCase_ = responseTypesCase_;
         result.responseTypes_ = this.responseTypes_;
         if (responseTypesCase_ == 1 &&
@@ -3850,16 +3850,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.ResponseParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.ResponseParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.ResponseParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.ResponseParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.ResponseParameters other) {
-        if (other == malim.protocol.MalimProtos.ResponseParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.ResponseParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.ResponseParameters.getDefaultInstance()) return this;
         switch (other.getResponseTypesCase()) {
           case ECHO_RESPONSE_PARAMETERS: {
             mergeEchoResponseParameters(other.getEchoResponseParameters());
@@ -3979,7 +3979,7 @@ public final class MalimProtos {
       private int bitField0_;
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.EchoResponseParameters, malim.protocol.MalimProtos.EchoResponseParameters.Builder, malim.protocol.MalimProtos.EchoResponseParametersOrBuilder> echoResponseParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.EchoResponseParameters, malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder> echoResponseParametersBuilder_;
       /**
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        * @return Whether the echoResponseParameters field is set.
@@ -3993,23 +3993,23 @@ public final class MalimProtos {
        * @return The echoResponseParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoResponseParameters getEchoResponseParameters() {
+      public malim.protocol.approach.second.MalimProtos.EchoResponseParameters getEchoResponseParameters() {
         if (echoResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 1) {
-            return (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
         } else {
           if (responseTypesCase_ == 1) {
             return echoResponseParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        */
-      public Builder setEchoResponseParameters(malim.protocol.MalimProtos.EchoResponseParameters value) {
+      public Builder setEchoResponseParameters(malim.protocol.approach.second.MalimProtos.EchoResponseParameters value) {
         if (echoResponseParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4026,7 +4026,7 @@ public final class MalimProtos {
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        */
       public Builder setEchoResponseParameters(
-          malim.protocol.MalimProtos.EchoResponseParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder builderForValue) {
         if (echoResponseParametersBuilder_ == null) {
           responseTypes_ = builderForValue.build();
           onChanged();
@@ -4039,11 +4039,11 @@ public final class MalimProtos {
       /**
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        */
-      public Builder mergeEchoResponseParameters(malim.protocol.MalimProtos.EchoResponseParameters value) {
+      public Builder mergeEchoResponseParameters(malim.protocol.approach.second.MalimProtos.EchoResponseParameters value) {
         if (echoResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 1 &&
-              responseTypes_ != malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance()) {
-            responseTypes_ = malim.protocol.MalimProtos.EchoResponseParameters.newBuilder((malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_)
+              responseTypes_ != malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance()) {
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.EchoResponseParameters.newBuilder((malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             responseTypes_ = value;
@@ -4081,36 +4081,36 @@ public final class MalimProtos {
       /**
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        */
-      public malim.protocol.MalimProtos.EchoResponseParameters.Builder getEchoResponseParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder getEchoResponseParametersBuilder() {
         return getEchoResponseParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoResponseParametersOrBuilder getEchoResponseParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder getEchoResponseParametersOrBuilder() {
         if ((responseTypesCase_ == 1) && (echoResponseParametersBuilder_ != null)) {
           return echoResponseParametersBuilder_.getMessageOrBuilder();
         } else {
           if (responseTypesCase_ == 1) {
-            return (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.EchoResponseParameters echo_response_parameters = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.EchoResponseParameters, malim.protocol.MalimProtos.EchoResponseParameters.Builder, malim.protocol.MalimProtos.EchoResponseParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.EchoResponseParameters, malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder> 
           getEchoResponseParametersFieldBuilder() {
         if (echoResponseParametersBuilder_ == null) {
           if (!(responseTypesCase_ == 1)) {
-            responseTypes_ = malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
           }
           echoResponseParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.EchoResponseParameters, malim.protocol.MalimProtos.EchoResponseParameters.Builder, malim.protocol.MalimProtos.EchoResponseParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.EchoResponseParameters) responseTypes_,
+              malim.protocol.approach.second.MalimProtos.EchoResponseParameters, malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) responseTypes_,
                   getParentForChildren(),
                   isClean());
           responseTypes_ = null;
@@ -4121,7 +4121,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.SumResponseParameters, malim.protocol.MalimProtos.SumResponseParameters.Builder, malim.protocol.MalimProtos.SumResponseParametersOrBuilder> sumResponseParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.SumResponseParameters, malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder> sumResponseParametersBuilder_;
       /**
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        * @return Whether the sumResponseParameters field is set.
@@ -4135,23 +4135,23 @@ public final class MalimProtos {
        * @return The sumResponseParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumResponseParameters getSumResponseParameters() {
+      public malim.protocol.approach.second.MalimProtos.SumResponseParameters getSumResponseParameters() {
         if (sumResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 2) {
-            return (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
         } else {
           if (responseTypesCase_ == 2) {
             return sumResponseParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        */
-      public Builder setSumResponseParameters(malim.protocol.MalimProtos.SumResponseParameters value) {
+      public Builder setSumResponseParameters(malim.protocol.approach.second.MalimProtos.SumResponseParameters value) {
         if (sumResponseParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4168,7 +4168,7 @@ public final class MalimProtos {
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        */
       public Builder setSumResponseParameters(
-          malim.protocol.MalimProtos.SumResponseParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder builderForValue) {
         if (sumResponseParametersBuilder_ == null) {
           responseTypes_ = builderForValue.build();
           onChanged();
@@ -4181,11 +4181,11 @@ public final class MalimProtos {
       /**
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        */
-      public Builder mergeSumResponseParameters(malim.protocol.MalimProtos.SumResponseParameters value) {
+      public Builder mergeSumResponseParameters(malim.protocol.approach.second.MalimProtos.SumResponseParameters value) {
         if (sumResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 2 &&
-              responseTypes_ != malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance()) {
-            responseTypes_ = malim.protocol.MalimProtos.SumResponseParameters.newBuilder((malim.protocol.MalimProtos.SumResponseParameters) responseTypes_)
+              responseTypes_ != malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance()) {
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.SumResponseParameters.newBuilder((malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             responseTypes_ = value;
@@ -4223,36 +4223,36 @@ public final class MalimProtos {
       /**
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        */
-      public malim.protocol.MalimProtos.SumResponseParameters.Builder getSumResponseParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder getSumResponseParametersBuilder() {
         return getSumResponseParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumResponseParametersOrBuilder getSumResponseParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder getSumResponseParametersOrBuilder() {
         if ((responseTypesCase_ == 2) && (sumResponseParametersBuilder_ != null)) {
           return sumResponseParametersBuilder_.getMessageOrBuilder();
         } else {
           if (responseTypesCase_ == 2) {
-            return (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.SumResponseParameters sum_response_parameters = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.SumResponseParameters, malim.protocol.MalimProtos.SumResponseParameters.Builder, malim.protocol.MalimProtos.SumResponseParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.SumResponseParameters, malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder> 
           getSumResponseParametersFieldBuilder() {
         if (sumResponseParametersBuilder_ == null) {
           if (!(responseTypesCase_ == 2)) {
-            responseTypes_ = malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
           }
           sumResponseParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.SumResponseParameters, malim.protocol.MalimProtos.SumResponseParameters.Builder, malim.protocol.MalimProtos.SumResponseParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.SumResponseParameters) responseTypes_,
+              malim.protocol.approach.second.MalimProtos.SumResponseParameters, malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.SumResponseParameters) responseTypes_,
                   getParentForChildren(),
                   isClean());
           responseTypes_ = null;
@@ -4263,7 +4263,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.CountResponseParameters, malim.protocol.MalimProtos.CountResponseParameters.Builder, malim.protocol.MalimProtos.CountResponseParametersOrBuilder> countResponseParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.CountResponseParameters, malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder> countResponseParametersBuilder_;
       /**
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        * @return Whether the countResponseParameters field is set.
@@ -4277,23 +4277,23 @@ public final class MalimProtos {
        * @return The countResponseParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountResponseParameters getCountResponseParameters() {
+      public malim.protocol.approach.second.MalimProtos.CountResponseParameters getCountResponseParameters() {
         if (countResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 3) {
-            return (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
         } else {
           if (responseTypesCase_ == 3) {
             return countResponseParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        */
-      public Builder setCountResponseParameters(malim.protocol.MalimProtos.CountResponseParameters value) {
+      public Builder setCountResponseParameters(malim.protocol.approach.second.MalimProtos.CountResponseParameters value) {
         if (countResponseParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4310,7 +4310,7 @@ public final class MalimProtos {
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        */
       public Builder setCountResponseParameters(
-          malim.protocol.MalimProtos.CountResponseParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder builderForValue) {
         if (countResponseParametersBuilder_ == null) {
           responseTypes_ = builderForValue.build();
           onChanged();
@@ -4323,11 +4323,11 @@ public final class MalimProtos {
       /**
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        */
-      public Builder mergeCountResponseParameters(malim.protocol.MalimProtos.CountResponseParameters value) {
+      public Builder mergeCountResponseParameters(malim.protocol.approach.second.MalimProtos.CountResponseParameters value) {
         if (countResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 3 &&
-              responseTypes_ != malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance()) {
-            responseTypes_ = malim.protocol.MalimProtos.CountResponseParameters.newBuilder((malim.protocol.MalimProtos.CountResponseParameters) responseTypes_)
+              responseTypes_ != malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance()) {
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.CountResponseParameters.newBuilder((malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             responseTypes_ = value;
@@ -4365,36 +4365,36 @@ public final class MalimProtos {
       /**
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        */
-      public malim.protocol.MalimProtos.CountResponseParameters.Builder getCountResponseParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder getCountResponseParametersBuilder() {
         return getCountResponseParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountResponseParametersOrBuilder getCountResponseParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder getCountResponseParametersOrBuilder() {
         if ((responseTypesCase_ == 3) && (countResponseParametersBuilder_ != null)) {
           return countResponseParametersBuilder_.getMessageOrBuilder();
         } else {
           if (responseTypesCase_ == 3) {
-            return (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.CountResponseParameters count_response_parameters = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.CountResponseParameters, malim.protocol.MalimProtos.CountResponseParameters.Builder, malim.protocol.MalimProtos.CountResponseParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.CountResponseParameters, malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder> 
           getCountResponseParametersFieldBuilder() {
         if (countResponseParametersBuilder_ == null) {
           if (!(responseTypesCase_ == 3)) {
-            responseTypes_ = malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
           }
           countResponseParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.CountResponseParameters, malim.protocol.MalimProtos.CountResponseParameters.Builder, malim.protocol.MalimProtos.CountResponseParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.CountResponseParameters) responseTypes_,
+              malim.protocol.approach.second.MalimProtos.CountResponseParameters, malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.CountResponseParameters) responseTypes_,
                   getParentForChildren(),
                   isClean());
           responseTypes_ = null;
@@ -4405,7 +4405,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.DisconnectResponseParameters, malim.protocol.MalimProtos.DisconnectResponseParameters.Builder, malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder> disconnectResponseParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters, malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder> disconnectResponseParametersBuilder_;
       /**
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        * @return Whether the disconnectResponseParameters field is set.
@@ -4419,23 +4419,23 @@ public final class MalimProtos {
        * @return The disconnectResponseParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectResponseParameters getDisconnectResponseParameters() {
+      public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters getDisconnectResponseParameters() {
         if (disconnectResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 4) {
-            return (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
         } else {
           if (responseTypesCase_ == 4) {
             return disconnectResponseParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        */
-      public Builder setDisconnectResponseParameters(malim.protocol.MalimProtos.DisconnectResponseParameters value) {
+      public Builder setDisconnectResponseParameters(malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters value) {
         if (disconnectResponseParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4452,7 +4452,7 @@ public final class MalimProtos {
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        */
       public Builder setDisconnectResponseParameters(
-          malim.protocol.MalimProtos.DisconnectResponseParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder builderForValue) {
         if (disconnectResponseParametersBuilder_ == null) {
           responseTypes_ = builderForValue.build();
           onChanged();
@@ -4465,11 +4465,11 @@ public final class MalimProtos {
       /**
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        */
-      public Builder mergeDisconnectResponseParameters(malim.protocol.MalimProtos.DisconnectResponseParameters value) {
+      public Builder mergeDisconnectResponseParameters(malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters value) {
         if (disconnectResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 4 &&
-              responseTypes_ != malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance()) {
-            responseTypes_ = malim.protocol.MalimProtos.DisconnectResponseParameters.newBuilder((malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_)
+              responseTypes_ != malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance()) {
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.newBuilder((malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             responseTypes_ = value;
@@ -4507,36 +4507,36 @@ public final class MalimProtos {
       /**
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        */
-      public malim.protocol.MalimProtos.DisconnectResponseParameters.Builder getDisconnectResponseParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder getDisconnectResponseParametersBuilder() {
         return getDisconnectResponseParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder getDisconnectResponseParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder getDisconnectResponseParametersOrBuilder() {
         if ((responseTypesCase_ == 4) && (disconnectResponseParametersBuilder_ != null)) {
           return disconnectResponseParametersBuilder_.getMessageOrBuilder();
         } else {
           if (responseTypesCase_ == 4) {
-            return (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.DisconnectResponseParameters disconnect_response_parameters = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.DisconnectResponseParameters, malim.protocol.MalimProtos.DisconnectResponseParameters.Builder, malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters, malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder> 
           getDisconnectResponseParametersFieldBuilder() {
         if (disconnectResponseParametersBuilder_ == null) {
           if (!(responseTypesCase_ == 4)) {
-            responseTypes_ = malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
           }
           disconnectResponseParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.DisconnectResponseParameters, malim.protocol.MalimProtos.DisconnectResponseParameters.Builder, malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.DisconnectResponseParameters) responseTypes_,
+              malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters, malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) responseTypes_,
                   getParentForChildren(),
                   isClean());
           responseTypes_ = null;
@@ -4547,7 +4547,7 @@ public final class MalimProtos {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.QuitResponseParameters, malim.protocol.MalimProtos.QuitResponseParameters.Builder, malim.protocol.MalimProtos.QuitResponseParametersOrBuilder> quitResponseParametersBuilder_;
+          malim.protocol.approach.second.MalimProtos.QuitResponseParameters, malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder> quitResponseParametersBuilder_;
       /**
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        * @return Whether the quitResponseParameters field is set.
@@ -4561,23 +4561,23 @@ public final class MalimProtos {
        * @return The quitResponseParameters.
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitResponseParameters getQuitResponseParameters() {
+      public malim.protocol.approach.second.MalimProtos.QuitResponseParameters getQuitResponseParameters() {
         if (quitResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 5) {
-            return (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
         } else {
           if (responseTypesCase_ == 5) {
             return quitResponseParametersBuilder_.getMessage();
           }
-          return malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        */
-      public Builder setQuitResponseParameters(malim.protocol.MalimProtos.QuitResponseParameters value) {
+      public Builder setQuitResponseParameters(malim.protocol.approach.second.MalimProtos.QuitResponseParameters value) {
         if (quitResponseParametersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4594,7 +4594,7 @@ public final class MalimProtos {
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        */
       public Builder setQuitResponseParameters(
-          malim.protocol.MalimProtos.QuitResponseParameters.Builder builderForValue) {
+          malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder builderForValue) {
         if (quitResponseParametersBuilder_ == null) {
           responseTypes_ = builderForValue.build();
           onChanged();
@@ -4607,11 +4607,11 @@ public final class MalimProtos {
       /**
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        */
-      public Builder mergeQuitResponseParameters(malim.protocol.MalimProtos.QuitResponseParameters value) {
+      public Builder mergeQuitResponseParameters(malim.protocol.approach.second.MalimProtos.QuitResponseParameters value) {
         if (quitResponseParametersBuilder_ == null) {
           if (responseTypesCase_ == 5 &&
-              responseTypes_ != malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance()) {
-            responseTypes_ = malim.protocol.MalimProtos.QuitResponseParameters.newBuilder((malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_)
+              responseTypes_ != malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance()) {
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.QuitResponseParameters.newBuilder((malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_)
                 .mergeFrom(value).buildPartial();
           } else {
             responseTypes_ = value;
@@ -4649,36 +4649,36 @@ public final class MalimProtos {
       /**
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        */
-      public malim.protocol.MalimProtos.QuitResponseParameters.Builder getQuitResponseParametersBuilder() {
+      public malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder getQuitResponseParametersBuilder() {
         return getQuitResponseParametersFieldBuilder().getBuilder();
       }
       /**
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        */
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitResponseParametersOrBuilder getQuitResponseParametersOrBuilder() {
+      public malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder getQuitResponseParametersOrBuilder() {
         if ((responseTypesCase_ == 5) && (quitResponseParametersBuilder_ != null)) {
           return quitResponseParametersBuilder_.getMessageOrBuilder();
         } else {
           if (responseTypesCase_ == 5) {
-            return (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_;
+            return (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_;
           }
-          return malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+          return malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
         }
       }
       /**
        * <code>.QuitResponseParameters quit_response_parameters = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          malim.protocol.MalimProtos.QuitResponseParameters, malim.protocol.MalimProtos.QuitResponseParameters.Builder, malim.protocol.MalimProtos.QuitResponseParametersOrBuilder> 
+          malim.protocol.approach.second.MalimProtos.QuitResponseParameters, malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder> 
           getQuitResponseParametersFieldBuilder() {
         if (quitResponseParametersBuilder_ == null) {
           if (!(responseTypesCase_ == 5)) {
-            responseTypes_ = malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+            responseTypes_ = malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
           }
           quitResponseParametersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              malim.protocol.MalimProtos.QuitResponseParameters, malim.protocol.MalimProtos.QuitResponseParameters.Builder, malim.protocol.MalimProtos.QuitResponseParametersOrBuilder>(
-                  (malim.protocol.MalimProtos.QuitResponseParameters) responseTypes_,
+              malim.protocol.approach.second.MalimProtos.QuitResponseParameters, malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder, malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder>(
+                  (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) responseTypes_,
                   getParentForChildren(),
                   isClean());
           responseTypes_ = null;
@@ -4692,12 +4692,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:ResponseParameters)
-    private static final malim.protocol.MalimProtos.ResponseParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.ResponseParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.ResponseParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.ResponseParameters();
     }
 
-    public static malim.protocol.MalimProtos.ResponseParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.ResponseParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4733,7 +4733,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.ResponseParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.ResponseParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4788,15 +4788,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_EchoRequestParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_EchoRequestParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_EchoRequestParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_EchoRequestParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.EchoRequestParameters.class, malim.protocol.MalimProtos.EchoRequestParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.EchoRequestParameters.class, malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder.class);
     }
 
     public static final int SIMULATION_TIME_FIELD_NUMBER = 1;
@@ -4895,10 +4895,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.EchoRequestParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.EchoRequestParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.EchoRequestParameters other = (malim.protocol.MalimProtos.EchoRequestParameters) obj;
+      malim.protocol.approach.second.MalimProtos.EchoRequestParameters other = (malim.protocol.approach.second.MalimProtos.EchoRequestParameters) obj;
 
       if (getSimulationTime()
           != other.getSimulationTime()) return false;
@@ -4924,44 +4924,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4969,26 +4969,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.EchoRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5001,7 +5001,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.EchoRequestParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.EchoRequestParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5022,18 +5022,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:EchoRequestParameters)
-        malim.protocol.MalimProtos.EchoRequestParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.EchoRequestParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_EchoRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_EchoRequestParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_EchoRequestParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_EchoRequestParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.EchoRequestParameters.class, malim.protocol.MalimProtos.EchoRequestParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.EchoRequestParameters.class, malim.protocol.approach.second.MalimProtos.EchoRequestParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.EchoRequestParameters.newBuilder()
@@ -5058,17 +5058,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_EchoRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_EchoRequestParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoRequestParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.EchoRequestParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoRequestParameters build() {
-        malim.protocol.MalimProtos.EchoRequestParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.EchoRequestParameters build() {
+        malim.protocol.approach.second.MalimProtos.EchoRequestParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -5076,14 +5076,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoRequestParameters buildPartial() {
-        malim.protocol.MalimProtos.EchoRequestParameters result = new malim.protocol.MalimProtos.EchoRequestParameters(this);
+      public malim.protocol.approach.second.MalimProtos.EchoRequestParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.EchoRequestParameters result = new malim.protocol.approach.second.MalimProtos.EchoRequestParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.EchoRequestParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.EchoRequestParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.simulationTime_ = simulationTime_;
@@ -5095,16 +5095,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.EchoRequestParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.EchoRequestParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.EchoRequestParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.EchoRequestParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.EchoRequestParameters other) {
-        if (other == malim.protocol.MalimProtos.EchoRequestParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.EchoRequestParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.EchoRequestParameters.getDefaultInstance()) return this;
         if (other.getSimulationTime() != 0) {
           setSimulationTime(other.getSimulationTime());
         }
@@ -5274,12 +5274,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:EchoRequestParameters)
-    private static final malim.protocol.MalimProtos.EchoRequestParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.EchoRequestParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.EchoRequestParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.EchoRequestParameters();
     }
 
-    public static malim.protocol.MalimProtos.EchoRequestParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.EchoRequestParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5315,7 +5315,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.EchoRequestParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.EchoRequestParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5364,15 +5364,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_EchoResponseParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_EchoResponseParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_EchoResponseParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_EchoResponseParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.EchoResponseParameters.class, malim.protocol.MalimProtos.EchoResponseParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.EchoResponseParameters.class, malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder.class);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 1;
@@ -5453,10 +5453,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.EchoResponseParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.EchoResponseParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.EchoResponseParameters other = (malim.protocol.MalimProtos.EchoResponseParameters) obj;
+      malim.protocol.approach.second.MalimProtos.EchoResponseParameters other = (malim.protocol.approach.second.MalimProtos.EchoResponseParameters) obj;
 
       if (!getMessage()
           .equals(other.getMessage())) return false;
@@ -5478,44 +5478,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5523,26 +5523,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.EchoResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5555,7 +5555,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.EchoResponseParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.EchoResponseParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5576,18 +5576,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:EchoResponseParameters)
-        malim.protocol.MalimProtos.EchoResponseParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.EchoResponseParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_EchoResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_EchoResponseParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_EchoResponseParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_EchoResponseParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.EchoResponseParameters.class, malim.protocol.MalimProtos.EchoResponseParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.EchoResponseParameters.class, malim.protocol.approach.second.MalimProtos.EchoResponseParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.EchoResponseParameters.newBuilder()
@@ -5611,17 +5611,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_EchoResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_EchoResponseParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoResponseParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.EchoResponseParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoResponseParameters build() {
-        malim.protocol.MalimProtos.EchoResponseParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.EchoResponseParameters build() {
+        malim.protocol.approach.second.MalimProtos.EchoResponseParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -5629,14 +5629,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.EchoResponseParameters buildPartial() {
-        malim.protocol.MalimProtos.EchoResponseParameters result = new malim.protocol.MalimProtos.EchoResponseParameters(this);
+      public malim.protocol.approach.second.MalimProtos.EchoResponseParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.EchoResponseParameters result = new malim.protocol.approach.second.MalimProtos.EchoResponseParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.EchoResponseParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.EchoResponseParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.message_ = message_;
@@ -5645,16 +5645,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.EchoResponseParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.EchoResponseParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.EchoResponseParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.EchoResponseParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.EchoResponseParameters other) {
-        if (other == malim.protocol.MalimProtos.EchoResponseParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.EchoResponseParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.EchoResponseParameters.getDefaultInstance()) return this;
         if (!other.getMessage().isEmpty()) {
           message_ = other.message_;
           bitField0_ |= 0x00000001;
@@ -5784,12 +5784,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:EchoResponseParameters)
-    private static final malim.protocol.MalimProtos.EchoResponseParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.EchoResponseParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.EchoResponseParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.EchoResponseParameters();
     }
 
-    public static malim.protocol.MalimProtos.EchoResponseParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.EchoResponseParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5825,7 +5825,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.EchoResponseParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.EchoResponseParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5885,15 +5885,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_SumRequestParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_SumRequestParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_SumRequestParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_SumRequestParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.SumRequestParameters.class, malim.protocol.MalimProtos.SumRequestParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.SumRequestParameters.class, malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder.class);
     }
 
     public static final int SIMULATION_TIME_FIELD_NUMBER = 1;
@@ -5999,10 +5999,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.SumRequestParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.SumRequestParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.SumRequestParameters other = (malim.protocol.MalimProtos.SumRequestParameters) obj;
+      malim.protocol.approach.second.MalimProtos.SumRequestParameters other = (malim.protocol.approach.second.MalimProtos.SumRequestParameters) obj;
 
       if (getSimulationTime()
           != other.getSimulationTime()) return false;
@@ -6030,44 +6030,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6075,26 +6075,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.SumRequestParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.SumRequestParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.SumRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6107,7 +6107,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.SumRequestParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.SumRequestParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6128,18 +6128,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:SumRequestParameters)
-        malim.protocol.MalimProtos.SumRequestParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.SumRequestParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_SumRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_SumRequestParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_SumRequestParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_SumRequestParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.SumRequestParameters.class, malim.protocol.MalimProtos.SumRequestParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.SumRequestParameters.class, malim.protocol.approach.second.MalimProtos.SumRequestParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.SumRequestParameters.newBuilder()
@@ -6164,17 +6164,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_SumRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_SumRequestParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumRequestParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.SumRequestParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumRequestParameters build() {
-        malim.protocol.MalimProtos.SumRequestParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.SumRequestParameters build() {
+        malim.protocol.approach.second.MalimProtos.SumRequestParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6182,14 +6182,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumRequestParameters buildPartial() {
-        malim.protocol.MalimProtos.SumRequestParameters result = new malim.protocol.MalimProtos.SumRequestParameters(this);
+      public malim.protocol.approach.second.MalimProtos.SumRequestParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.SumRequestParameters result = new malim.protocol.approach.second.MalimProtos.SumRequestParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.SumRequestParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.SumRequestParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.simulationTime_ = simulationTime_;
@@ -6202,16 +6202,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.SumRequestParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.SumRequestParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.SumRequestParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.SumRequestParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.SumRequestParameters other) {
-        if (other == malim.protocol.MalimProtos.SumRequestParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.SumRequestParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.SumRequestParameters.getDefaultInstance()) return this;
         if (other.getSimulationTime() != 0) {
           setSimulationTime(other.getSimulationTime());
         }
@@ -6410,12 +6410,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:SumRequestParameters)
-    private static final malim.protocol.MalimProtos.SumRequestParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.SumRequestParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.SumRequestParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.SumRequestParameters();
     }
 
-    public static malim.protocol.MalimProtos.SumRequestParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.SumRequestParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6451,7 +6451,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.SumRequestParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.SumRequestParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6493,15 +6493,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_SumResponseParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_SumResponseParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_SumResponseParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_SumResponseParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.SumResponseParameters.class, malim.protocol.MalimProtos.SumResponseParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.SumResponseParameters.class, malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder.class);
     }
 
     public static final int RESULT_FIELD_NUMBER = 1;
@@ -6555,10 +6555,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.SumResponseParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.SumResponseParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.SumResponseParameters other = (malim.protocol.MalimProtos.SumResponseParameters) obj;
+      malim.protocol.approach.second.MalimProtos.SumResponseParameters other = (malim.protocol.approach.second.MalimProtos.SumResponseParameters) obj;
 
       if (getResult()
           != other.getResult()) return false;
@@ -6580,44 +6580,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6625,26 +6625,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.SumResponseParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.SumResponseParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.SumResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6657,7 +6657,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.SumResponseParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.SumResponseParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6678,18 +6678,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:SumResponseParameters)
-        malim.protocol.MalimProtos.SumResponseParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.SumResponseParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_SumResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_SumResponseParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_SumResponseParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_SumResponseParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.SumResponseParameters.class, malim.protocol.MalimProtos.SumResponseParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.SumResponseParameters.class, malim.protocol.approach.second.MalimProtos.SumResponseParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.SumResponseParameters.newBuilder()
@@ -6713,17 +6713,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_SumResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_SumResponseParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumResponseParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.SumResponseParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumResponseParameters build() {
-        malim.protocol.MalimProtos.SumResponseParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.SumResponseParameters build() {
+        malim.protocol.approach.second.MalimProtos.SumResponseParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6731,14 +6731,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.SumResponseParameters buildPartial() {
-        malim.protocol.MalimProtos.SumResponseParameters result = new malim.protocol.MalimProtos.SumResponseParameters(this);
+      public malim.protocol.approach.second.MalimProtos.SumResponseParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.SumResponseParameters result = new malim.protocol.approach.second.MalimProtos.SumResponseParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.SumResponseParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.SumResponseParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.result_ = result_;
@@ -6747,16 +6747,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.SumResponseParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.SumResponseParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.SumResponseParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.SumResponseParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.SumResponseParameters other) {
-        if (other == malim.protocol.MalimProtos.SumResponseParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.SumResponseParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.SumResponseParameters.getDefaultInstance()) return this;
         if (other.getResult() != 0) {
           setResult(other.getResult());
         }
@@ -6844,12 +6844,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:SumResponseParameters)
-    private static final malim.protocol.MalimProtos.SumResponseParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.SumResponseParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.SumResponseParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.SumResponseParameters();
     }
 
-    public static malim.protocol.MalimProtos.SumResponseParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.SumResponseParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6885,7 +6885,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.SumResponseParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.SumResponseParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6945,15 +6945,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_CountRequestParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_CountRequestParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_CountRequestParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_CountRequestParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.CountRequestParameters.class, malim.protocol.MalimProtos.CountRequestParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.CountRequestParameters.class, malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder.class);
     }
 
     public static final int SIMULATION_TIME_FIELD_NUMBER = 1;
@@ -7059,10 +7059,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.CountRequestParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.CountRequestParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.CountRequestParameters other = (malim.protocol.MalimProtos.CountRequestParameters) obj;
+      malim.protocol.approach.second.MalimProtos.CountRequestParameters other = (malim.protocol.approach.second.MalimProtos.CountRequestParameters) obj;
 
       if (getSimulationTime()
           != other.getSimulationTime()) return false;
@@ -7090,44 +7090,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7135,26 +7135,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.CountRequestParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.CountRequestParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.CountRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7167,7 +7167,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.CountRequestParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.CountRequestParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7188,18 +7188,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:CountRequestParameters)
-        malim.protocol.MalimProtos.CountRequestParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.CountRequestParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_CountRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_CountRequestParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_CountRequestParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_CountRequestParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.CountRequestParameters.class, malim.protocol.MalimProtos.CountRequestParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.CountRequestParameters.class, malim.protocol.approach.second.MalimProtos.CountRequestParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.CountRequestParameters.newBuilder()
@@ -7224,17 +7224,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_CountRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_CountRequestParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountRequestParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.CountRequestParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountRequestParameters build() {
-        malim.protocol.MalimProtos.CountRequestParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.CountRequestParameters build() {
+        malim.protocol.approach.second.MalimProtos.CountRequestParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7242,14 +7242,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountRequestParameters buildPartial() {
-        malim.protocol.MalimProtos.CountRequestParameters result = new malim.protocol.MalimProtos.CountRequestParameters(this);
+      public malim.protocol.approach.second.MalimProtos.CountRequestParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.CountRequestParameters result = new malim.protocol.approach.second.MalimProtos.CountRequestParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.CountRequestParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.CountRequestParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.simulationTime_ = simulationTime_;
@@ -7262,16 +7262,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.CountRequestParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.CountRequestParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.CountRequestParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.CountRequestParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.CountRequestParameters other) {
-        if (other == malim.protocol.MalimProtos.CountRequestParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.CountRequestParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.CountRequestParameters.getDefaultInstance()) return this;
         if (other.getSimulationTime() != 0) {
           setSimulationTime(other.getSimulationTime());
         }
@@ -7470,12 +7470,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:CountRequestParameters)
-    private static final malim.protocol.MalimProtos.CountRequestParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.CountRequestParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.CountRequestParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.CountRequestParameters();
     }
 
-    public static malim.protocol.MalimProtos.CountRequestParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.CountRequestParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7511,7 +7511,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.CountRequestParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.CountRequestParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7553,15 +7553,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_CountResponseParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_CountResponseParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_CountResponseParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_CountResponseParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.CountResponseParameters.class, malim.protocol.MalimProtos.CountResponseParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.CountResponseParameters.class, malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder.class);
     }
 
     public static final int RESULT_FIELD_NUMBER = 1;
@@ -7615,10 +7615,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.CountResponseParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.CountResponseParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.CountResponseParameters other = (malim.protocol.MalimProtos.CountResponseParameters) obj;
+      malim.protocol.approach.second.MalimProtos.CountResponseParameters other = (malim.protocol.approach.second.MalimProtos.CountResponseParameters) obj;
 
       if (getResult()
           != other.getResult()) return false;
@@ -7640,44 +7640,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7685,26 +7685,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.CountResponseParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.CountResponseParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.CountResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7717,7 +7717,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.CountResponseParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.CountResponseParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7738,18 +7738,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:CountResponseParameters)
-        malim.protocol.MalimProtos.CountResponseParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.CountResponseParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_CountResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_CountResponseParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_CountResponseParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_CountResponseParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.CountResponseParameters.class, malim.protocol.MalimProtos.CountResponseParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.CountResponseParameters.class, malim.protocol.approach.second.MalimProtos.CountResponseParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.CountResponseParameters.newBuilder()
@@ -7773,17 +7773,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_CountResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_CountResponseParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountResponseParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.CountResponseParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountResponseParameters build() {
-        malim.protocol.MalimProtos.CountResponseParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.CountResponseParameters build() {
+        malim.protocol.approach.second.MalimProtos.CountResponseParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7791,14 +7791,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.CountResponseParameters buildPartial() {
-        malim.protocol.MalimProtos.CountResponseParameters result = new malim.protocol.MalimProtos.CountResponseParameters(this);
+      public malim.protocol.approach.second.MalimProtos.CountResponseParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.CountResponseParameters result = new malim.protocol.approach.second.MalimProtos.CountResponseParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.CountResponseParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.CountResponseParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.result_ = result_;
@@ -7807,16 +7807,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.CountResponseParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.CountResponseParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.CountResponseParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.CountResponseParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.CountResponseParameters other) {
-        if (other == malim.protocol.MalimProtos.CountResponseParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.CountResponseParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.CountResponseParameters.getDefaultInstance()) return this;
         if (other.getResult() != 0) {
           setResult(other.getResult());
         }
@@ -7904,12 +7904,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:CountResponseParameters)
-    private static final malim.protocol.MalimProtos.CountResponseParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.CountResponseParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.CountResponseParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.CountResponseParameters();
     }
 
-    public static malim.protocol.MalimProtos.CountResponseParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.CountResponseParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7945,7 +7945,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.CountResponseParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.CountResponseParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8000,15 +8000,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_DisconnectRequestParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectRequestParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_DisconnectRequestParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectRequestParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.DisconnectRequestParameters.class, malim.protocol.MalimProtos.DisconnectRequestParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.class, malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder.class);
     }
 
     public static final int SIMULATION_TIME_FIELD_NUMBER = 1;
@@ -8107,10 +8107,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.DisconnectRequestParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.DisconnectRequestParameters other = (malim.protocol.MalimProtos.DisconnectRequestParameters) obj;
+      malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters other = (malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) obj;
 
       if (getSimulationTime()
           != other.getSimulationTime()) return false;
@@ -8136,44 +8136,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8181,26 +8181,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8213,7 +8213,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.DisconnectRequestParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -8234,18 +8234,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:DisconnectRequestParameters)
-        malim.protocol.MalimProtos.DisconnectRequestParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.DisconnectRequestParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_DisconnectRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectRequestParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_DisconnectRequestParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectRequestParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.DisconnectRequestParameters.class, malim.protocol.MalimProtos.DisconnectRequestParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.class, malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.DisconnectRequestParameters.newBuilder()
@@ -8270,17 +8270,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_DisconnectRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectRequestParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectRequestParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectRequestParameters build() {
-        malim.protocol.MalimProtos.DisconnectRequestParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters build() {
+        malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -8288,14 +8288,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectRequestParameters buildPartial() {
-        malim.protocol.MalimProtos.DisconnectRequestParameters result = new malim.protocol.MalimProtos.DisconnectRequestParameters(this);
+      public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters result = new malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.DisconnectRequestParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.simulationTime_ = simulationTime_;
@@ -8307,16 +8307,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.DisconnectRequestParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.DisconnectRequestParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.DisconnectRequestParameters other) {
-        if (other == malim.protocol.MalimProtos.DisconnectRequestParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters.getDefaultInstance()) return this;
         if (other.getSimulationTime() != 0) {
           setSimulationTime(other.getSimulationTime());
         }
@@ -8486,12 +8486,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:DisconnectRequestParameters)
-    private static final malim.protocol.MalimProtos.DisconnectRequestParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.DisconnectRequestParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters();
     }
 
-    public static malim.protocol.MalimProtos.DisconnectRequestParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8527,7 +8527,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.DisconnectRequestParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.DisconnectRequestParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8576,15 +8576,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_DisconnectResponseParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectResponseParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_DisconnectResponseParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectResponseParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.DisconnectResponseParameters.class, malim.protocol.MalimProtos.DisconnectResponseParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.class, malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder.class);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 1;
@@ -8665,10 +8665,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.DisconnectResponseParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.DisconnectResponseParameters other = (malim.protocol.MalimProtos.DisconnectResponseParameters) obj;
+      malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters other = (malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) obj;
 
       if (!getMessage()
           .equals(other.getMessage())) return false;
@@ -8690,44 +8690,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8735,26 +8735,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8767,7 +8767,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.DisconnectResponseParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -8788,18 +8788,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:DisconnectResponseParameters)
-        malim.protocol.MalimProtos.DisconnectResponseParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.DisconnectResponseParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_DisconnectResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectResponseParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_DisconnectResponseParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectResponseParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.DisconnectResponseParameters.class, malim.protocol.MalimProtos.DisconnectResponseParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.class, malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.DisconnectResponseParameters.newBuilder()
@@ -8823,17 +8823,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_DisconnectResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_DisconnectResponseParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectResponseParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectResponseParameters build() {
-        malim.protocol.MalimProtos.DisconnectResponseParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters build() {
+        malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -8841,14 +8841,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.DisconnectResponseParameters buildPartial() {
-        malim.protocol.MalimProtos.DisconnectResponseParameters result = new malim.protocol.MalimProtos.DisconnectResponseParameters(this);
+      public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters result = new malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.DisconnectResponseParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.message_ = message_;
@@ -8857,16 +8857,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.DisconnectResponseParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.DisconnectResponseParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.DisconnectResponseParameters other) {
-        if (other == malim.protocol.MalimProtos.DisconnectResponseParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters.getDefaultInstance()) return this;
         if (!other.getMessage().isEmpty()) {
           message_ = other.message_;
           bitField0_ |= 0x00000001;
@@ -8996,12 +8996,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:DisconnectResponseParameters)
-    private static final malim.protocol.MalimProtos.DisconnectResponseParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.DisconnectResponseParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters();
     }
 
-    public static malim.protocol.MalimProtos.DisconnectResponseParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9037,7 +9037,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.DisconnectResponseParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.DisconnectResponseParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9092,15 +9092,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_QuitRequestParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_QuitRequestParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_QuitRequestParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_QuitRequestParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.QuitRequestParameters.class, malim.protocol.MalimProtos.QuitRequestParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.QuitRequestParameters.class, malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder.class);
     }
 
     public static final int SIMULATION_TIME_FIELD_NUMBER = 1;
@@ -9199,10 +9199,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.QuitRequestParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.QuitRequestParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.QuitRequestParameters other = (malim.protocol.MalimProtos.QuitRequestParameters) obj;
+      malim.protocol.approach.second.MalimProtos.QuitRequestParameters other = (malim.protocol.approach.second.MalimProtos.QuitRequestParameters) obj;
 
       if (getSimulationTime()
           != other.getSimulationTime()) return false;
@@ -9228,44 +9228,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9273,26 +9273,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.QuitRequestParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9305,7 +9305,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.QuitRequestParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.QuitRequestParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -9326,18 +9326,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:QuitRequestParameters)
-        malim.protocol.MalimProtos.QuitRequestParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.QuitRequestParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_QuitRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_QuitRequestParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_QuitRequestParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_QuitRequestParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.QuitRequestParameters.class, malim.protocol.MalimProtos.QuitRequestParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.QuitRequestParameters.class, malim.protocol.approach.second.MalimProtos.QuitRequestParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.QuitRequestParameters.newBuilder()
@@ -9362,17 +9362,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_QuitRequestParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_QuitRequestParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitRequestParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.QuitRequestParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitRequestParameters build() {
-        malim.protocol.MalimProtos.QuitRequestParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.QuitRequestParameters build() {
+        malim.protocol.approach.second.MalimProtos.QuitRequestParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -9380,14 +9380,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitRequestParameters buildPartial() {
-        malim.protocol.MalimProtos.QuitRequestParameters result = new malim.protocol.MalimProtos.QuitRequestParameters(this);
+      public malim.protocol.approach.second.MalimProtos.QuitRequestParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.QuitRequestParameters result = new malim.protocol.approach.second.MalimProtos.QuitRequestParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.QuitRequestParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.QuitRequestParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.simulationTime_ = simulationTime_;
@@ -9399,16 +9399,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.QuitRequestParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.QuitRequestParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.QuitRequestParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.QuitRequestParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.QuitRequestParameters other) {
-        if (other == malim.protocol.MalimProtos.QuitRequestParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.QuitRequestParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.QuitRequestParameters.getDefaultInstance()) return this;
         if (other.getSimulationTime() != 0) {
           setSimulationTime(other.getSimulationTime());
         }
@@ -9578,12 +9578,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:QuitRequestParameters)
-    private static final malim.protocol.MalimProtos.QuitRequestParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.QuitRequestParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.QuitRequestParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.QuitRequestParameters();
     }
 
-    public static malim.protocol.MalimProtos.QuitRequestParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.QuitRequestParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9619,7 +9619,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.QuitRequestParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.QuitRequestParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9668,15 +9668,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_QuitResponseParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_QuitResponseParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_QuitResponseParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_QuitResponseParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.QuitResponseParameters.class, malim.protocol.MalimProtos.QuitResponseParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.QuitResponseParameters.class, malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder.class);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 1;
@@ -9757,10 +9757,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.QuitResponseParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.QuitResponseParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.QuitResponseParameters other = (malim.protocol.MalimProtos.QuitResponseParameters) obj;
+      malim.protocol.approach.second.MalimProtos.QuitResponseParameters other = (malim.protocol.approach.second.MalimProtos.QuitResponseParameters) obj;
 
       if (!getMessage()
           .equals(other.getMessage())) return false;
@@ -9782,44 +9782,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9827,26 +9827,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.QuitResponseParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9859,7 +9859,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.QuitResponseParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.QuitResponseParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -9880,18 +9880,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:QuitResponseParameters)
-        malim.protocol.MalimProtos.QuitResponseParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.QuitResponseParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_QuitResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_QuitResponseParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_QuitResponseParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_QuitResponseParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.QuitResponseParameters.class, malim.protocol.MalimProtos.QuitResponseParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.QuitResponseParameters.class, malim.protocol.approach.second.MalimProtos.QuitResponseParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.QuitResponseParameters.newBuilder()
@@ -9915,17 +9915,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_QuitResponseParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_QuitResponseParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitResponseParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.QuitResponseParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitResponseParameters build() {
-        malim.protocol.MalimProtos.QuitResponseParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.QuitResponseParameters build() {
+        malim.protocol.approach.second.MalimProtos.QuitResponseParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -9933,14 +9933,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.QuitResponseParameters buildPartial() {
-        malim.protocol.MalimProtos.QuitResponseParameters result = new malim.protocol.MalimProtos.QuitResponseParameters(this);
+      public malim.protocol.approach.second.MalimProtos.QuitResponseParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.QuitResponseParameters result = new malim.protocol.approach.second.MalimProtos.QuitResponseParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.QuitResponseParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.QuitResponseParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.message_ = message_;
@@ -9949,16 +9949,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.QuitResponseParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.QuitResponseParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.QuitResponseParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.QuitResponseParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.QuitResponseParameters other) {
-        if (other == malim.protocol.MalimProtos.QuitResponseParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.QuitResponseParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.QuitResponseParameters.getDefaultInstance()) return this;
         if (!other.getMessage().isEmpty()) {
           message_ = other.message_;
           bitField0_ |= 0x00000001;
@@ -10088,12 +10088,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:QuitResponseParameters)
-    private static final malim.protocol.MalimProtos.QuitResponseParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.QuitResponseParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.QuitResponseParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.QuitResponseParameters();
     }
 
-    public static malim.protocol.MalimProtos.QuitResponseParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.QuitResponseParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10129,7 +10129,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.QuitResponseParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.QuitResponseParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10184,15 +10184,15 @@ public final class MalimProtos {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return malim.protocol.MalimProtos.internal_static_ErrorParameters_descriptor;
+      return malim.protocol.approach.second.MalimProtos.internal_static_ErrorParameters_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return malim.protocol.MalimProtos.internal_static_ErrorParameters_fieldAccessorTable
+      return malim.protocol.approach.second.MalimProtos.internal_static_ErrorParameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              malim.protocol.MalimProtos.ErrorParameters.class, malim.protocol.MalimProtos.ErrorParameters.Builder.class);
+              malim.protocol.approach.second.MalimProtos.ErrorParameters.class, malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder.class);
     }
 
     public static final int ERROR_CODE_FIELD_NUMBER = 1;
@@ -10291,10 +10291,10 @@ public final class MalimProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof malim.protocol.MalimProtos.ErrorParameters)) {
+      if (!(obj instanceof malim.protocol.approach.second.MalimProtos.ErrorParameters)) {
         return super.equals(obj);
       }
-      malim.protocol.MalimProtos.ErrorParameters other = (malim.protocol.MalimProtos.ErrorParameters) obj;
+      malim.protocol.approach.second.MalimProtos.ErrorParameters other = (malim.protocol.approach.second.MalimProtos.ErrorParameters) obj;
 
       if (getErrorCode()
           != other.getErrorCode()) return false;
@@ -10320,44 +10320,44 @@ public final class MalimProtos {
       return hash;
     }
 
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(byte[] data)
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10365,26 +10365,26 @@ public final class MalimProtos {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static malim.protocol.MalimProtos.ErrorParameters parseDelimitedFrom(java.io.InputStream input)
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static malim.protocol.MalimProtos.ErrorParameters parseDelimitedFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static malim.protocol.MalimProtos.ErrorParameters parseFrom(
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10397,7 +10397,7 @@ public final class MalimProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(malim.protocol.MalimProtos.ErrorParameters prototype) {
+    public static Builder newBuilder(malim.protocol.approach.second.MalimProtos.ErrorParameters prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -10418,18 +10418,18 @@ public final class MalimProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:ErrorParameters)
-        malim.protocol.MalimProtos.ErrorParametersOrBuilder {
+        malim.protocol.approach.second.MalimProtos.ErrorParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return malim.protocol.MalimProtos.internal_static_ErrorParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_ErrorParameters_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return malim.protocol.MalimProtos.internal_static_ErrorParameters_fieldAccessorTable
+        return malim.protocol.approach.second.MalimProtos.internal_static_ErrorParameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                malim.protocol.MalimProtos.ErrorParameters.class, malim.protocol.MalimProtos.ErrorParameters.Builder.class);
+                malim.protocol.approach.second.MalimProtos.ErrorParameters.class, malim.protocol.approach.second.MalimProtos.ErrorParameters.Builder.class);
       }
 
       // Construct using malim.MalimProtos.ErrorParameters.newBuilder()
@@ -10454,17 +10454,17 @@ public final class MalimProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return malim.protocol.MalimProtos.internal_static_ErrorParameters_descriptor;
+        return malim.protocol.approach.second.MalimProtos.internal_static_ErrorParameters_descriptor;
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.ErrorParameters getDefaultInstanceForType() {
-        return malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance();
+      public malim.protocol.approach.second.MalimProtos.ErrorParameters getDefaultInstanceForType() {
+        return malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance();
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.ErrorParameters build() {
-        malim.protocol.MalimProtos.ErrorParameters result = buildPartial();
+      public malim.protocol.approach.second.MalimProtos.ErrorParameters build() {
+        malim.protocol.approach.second.MalimProtos.ErrorParameters result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -10472,14 +10472,14 @@ public final class MalimProtos {
       }
 
       @java.lang.Override
-      public malim.protocol.MalimProtos.ErrorParameters buildPartial() {
-        malim.protocol.MalimProtos.ErrorParameters result = new malim.protocol.MalimProtos.ErrorParameters(this);
+      public malim.protocol.approach.second.MalimProtos.ErrorParameters buildPartial() {
+        malim.protocol.approach.second.MalimProtos.ErrorParameters result = new malim.protocol.approach.second.MalimProtos.ErrorParameters(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(malim.protocol.MalimProtos.ErrorParameters result) {
+      private void buildPartial0(malim.protocol.approach.second.MalimProtos.ErrorParameters result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.errorCode_ = errorCode_;
@@ -10491,16 +10491,16 @@ public final class MalimProtos {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof malim.protocol.MalimProtos.ErrorParameters) {
-          return mergeFrom((malim.protocol.MalimProtos.ErrorParameters)other);
+        if (other instanceof malim.protocol.approach.second.MalimProtos.ErrorParameters) {
+          return mergeFrom((malim.protocol.approach.second.MalimProtos.ErrorParameters)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(malim.protocol.MalimProtos.ErrorParameters other) {
-        if (other == malim.protocol.MalimProtos.ErrorParameters.getDefaultInstance()) return this;
+      public Builder mergeFrom(malim.protocol.approach.second.MalimProtos.ErrorParameters other) {
+        if (other == malim.protocol.approach.second.MalimProtos.ErrorParameters.getDefaultInstance()) return this;
         if (other.getErrorCode() != 0) {
           setErrorCode(other.getErrorCode());
         }
@@ -10670,12 +10670,12 @@ public final class MalimProtos {
     }
 
     // @@protoc_insertion_point(class_scope:ErrorParameters)
-    private static final malim.protocol.MalimProtos.ErrorParameters DEFAULT_INSTANCE;
+    private static final malim.protocol.approach.second.MalimProtos.ErrorParameters DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new malim.protocol.MalimProtos.ErrorParameters();
+      DEFAULT_INSTANCE = new malim.protocol.approach.second.MalimProtos.ErrorParameters();
     }
 
-    public static malim.protocol.MalimProtos.ErrorParameters getDefaultInstance() {
+    public static malim.protocol.approach.second.MalimProtos.ErrorParameters getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10711,7 +10711,7 @@ public final class MalimProtos {
     }
 
     @java.lang.Override
-    public malim.protocol.MalimProtos.ErrorParameters getDefaultInstanceForType() {
+    public malim.protocol.approach.second.MalimProtos.ErrorParameters getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 

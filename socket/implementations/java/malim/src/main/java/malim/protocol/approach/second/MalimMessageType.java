@@ -1,4 +1,4 @@
-package malim.protocol;
+package malim.protocol.approach.second;
 
 public enum MalimMessageType {
     MESSAGE_TYPE_UNSPECIFIED,

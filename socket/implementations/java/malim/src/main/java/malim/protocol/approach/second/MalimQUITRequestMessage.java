@@ -1,4 +1,4 @@
-package malim.protocol;
+package malim.protocol.approach.second;
 
 public class MalimQUITRequestMessage extends MalimMessage{
     public MalimQUITRequestMessage(int simulationTime, String message){

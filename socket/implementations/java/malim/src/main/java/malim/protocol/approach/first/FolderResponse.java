@@ -1,4 +1,4 @@
-package malim.protocol;
+package malim.protocol.approach.first;
 
 public class FolderResponse {
 

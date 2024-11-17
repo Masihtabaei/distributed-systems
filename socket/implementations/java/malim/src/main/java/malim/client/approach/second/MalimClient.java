@@ -1,27 +1,31 @@
-package malim.client;
-
-import malim.protocol.*;
+package malim.client.approach.second;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
+
+import malim.protocol.approach.second.MalimCOUNTRequestMessage;
+import malim.protocol.approach.second.MalimDISCONNECTRequestMessage;
+import malim.protocol.approach.second.MalimProtos;
+import malim.protocol.approach.second.MalimQUITRequestMessage;
+import malim.protocol.approach.second.MalimSUMRequestMesssage;
+import malim.protocol.approach.second.MalimUtil;
 
 public class MalimClient {
 
     private static String proname = "TcpMalimClient";
     // private static final int BUF_LEN = 128
 
-    public static void main(String[] args) {
+/*     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Bitte Server-IP und Port angeben.");
             return;
         }
         MalimClient client = new MalimClient();
         client.runInstance(args);
-    }
+    } */
 
     private void runInstance(String[] args) {
         if(args.length == 0) {return;}
@@ -130,7 +134,7 @@ public class MalimClient {
                             text = sc.nextLine();
 
                             MalimQUITRequestMessage quitRequestMessage = new MalimQUITRequestMessage(simulationTime,text);
-                            requestMessage = MalimUtil.createRequestMessageForQUIT(quitRequestMessage);
+                            //requestMessage = MalimUtil.createRequestMessageForQUIT(quitRequestMessage);
 
                             MalimUtil.writeMalimMessageToSocket(requestMessage,dataOutput);
                             System.out.println("Sende Anfragenachricht implizit (d.h. ohne flush()) mit Fktnr=" + fktnr + "und Text=" + text);

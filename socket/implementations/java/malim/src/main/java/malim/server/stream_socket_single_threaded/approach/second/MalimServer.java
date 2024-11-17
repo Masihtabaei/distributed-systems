@@ -1,4 +1,4 @@
-package malim.server.stream_socket_single_threaded;
+package malim.server.stream_socket_single_threaded.approach.second;
 
 public class MalimServer {
     private int portNumber;
